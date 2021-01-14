@@ -118,6 +118,8 @@ END;
 $$ language plpgsql;
 
 drop trigger  if  exists tr_dv_adressen_brandenburg_before_update on adressen.dv_adressen_brandenburg;
+
+
 CREATE TRIGGER tr_dv_adressen_brandenburg_before_update
 	BEFORE UPDATE ON adressen.dv_adressen_brandenburg
 		FOR EACH ROW

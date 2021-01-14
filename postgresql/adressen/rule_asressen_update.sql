@@ -151,3 +151,4 @@ CREATE OR REPLACE RULE rule_asressen_update
 			UPDATE adressen.dv_adressen_sachsen_anhalt set _trig='vd' where  _id=new.id;
 		);
 
+

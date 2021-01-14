@@ -18,6 +18,7 @@
 --drop function if exists tr_adressen_before_update_insert_fill_xy;
 
 
+--define a new trigger for adressen.adressen
 create or replace function tr_adressen_before_update_insert_fill_xy() returns trigger as $$ --#new#
 begin 
 	if new.bundesland='Berlin' or new.bundesland='Brandenburg' then
@@ -37,15 +38,18 @@ begin
 	end if;
 	return new;
 end;
-$$ language plpgsql;	
+$$ language plpgsql;		
 
-			
 drop trigger if exists 	tr_adressen_before_update_insert_fill_xy on adressen.adressen;
 
 create trigger tr_adressen_beforeupdate_fill_xy 
 	before update or insert on adressen.adressen
 		for each row
 			execute procedure tr_adressen_before_update_insert_fill_xy();
+
+-- drop delete triggers and rule for delete on _geometry_adresse_25832 and _geometry_adresse_25833
+drop rule rule_geometryadresse25832_delete on adressen._geometry_adresse_25832; 
+drop rule rule_geometryadresse25833_delete on adressen._geometry_adresse_25833; 
 
 
 

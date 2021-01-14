@@ -8,7 +8,7 @@
 --	schema:		adressen                                                                                                                                            --
 --	typ:		Table                                                                                                                                				--
 --	cr.date:	05.09.2020                                                                                                                                          --
---	ed.date:	13.11.2020                                                                                                                                          --
+--	ed.date:	02.12.2020                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
 --				adressen.adressen                                                                                                                                   --
 --	purpose: 	                                                                                                                                                    --
@@ -93,9 +93,9 @@ CREATE INDEX inx_adresse_gemeinde_schluessel ON adressen.adressen(gemeinde_schlu
 CREATE INDEX inx_adresse_plz ON adressen.adressen (plz);
 CREATE INDEX inx_adresse_funktion_kategorie ON adressen.adressen(funktion_kategorie);
 
----- an edit on 02-12-2020 add geom
---alter table adressen.adressen add column geom geometry(POINT,4326);
---create index inx_adressen_adressen_geom on adressen.adressen using GIST(geom);
+-- an edit on 02-12-2020 add geom
+alter table adressen.adressen add column geom geometry(POINT,4326);
+create index inx_adressen_adressen_geom on adressen.adressen using GIST(geom);
 
 
 COMMENT ON TABLE adressen.adressen IS E'This table is the master table for the addresses (every Bundesland.). It does not contain geometry. 

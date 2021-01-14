@@ -6,7 +6,7 @@
 --	schema:		public                                                                                                                                              --
 --	typ:		Rule                                                                                                                                             --
 --	cr.date:	05.10.2020                                                                                                                                          --
---	ed.date:	24.11.2020                                                                                                                                          --
+--	ed.date:	03.12.2020                                                                                                                                          --
 --	impressionable_tables:
 --				adressen.adressen																																	--       
 --				adressen.adresse_abschluss                                                                                                                          --                                                                                                                                               
@@ -34,7 +34,6 @@ create or replace RULE rule_adressen_update_effectson_adresse_abschluss
 								--, _geom_= st_setsrid(st_point(new._wgs84_lon, new._wgs84_lat),4326)
 								,_geom_ = new.geom ---#new#
 								, _trig='master'  where old.id=_adresse_id ;
-			update adressen.adresse_abschluss  set _trig='dv' where _trig!='dv'; 
+			update view_b_bb.dv_abschluss  set _trig='dv' where _trig!='dv'; 
 		);
-
 

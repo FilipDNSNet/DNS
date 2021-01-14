@@ -117,6 +117,8 @@ END;
 $$ language plpgsql;
 
 drop trigger  if  exists tr_dv_adressen_sachsen_anhalt_before_update on adressen.dv_adressen_sachsen_anhalt;
+
+
 CREATE TRIGGER tr_dv_adressen_sachsen_anhalt_before_update
 	BEFORE UPDATE ON adressen.dv_adressen_sachsen_anhalt
 		FOR EACH ROW

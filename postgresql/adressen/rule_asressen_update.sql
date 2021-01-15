@@ -6,8 +6,10 @@
 --	schema:		public                                                                                                                                              --
 --	typ:		Rule                                                                                                                                                --
 --	cr.date:	02.12.2020                                                                                                                                          --
---	ed.date:	03.12.2020                                                                                                                                          --
+--	ed.date:	04.01.2021                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
+--				adressen.adressen                                                                                                                                   --
+--				adressen.dv_adressen_brandenburg	                                                                                                                --
 --				adressen.dv_adressen_brandenburg	                                                                                                                --
 --				adressen.dv_adressen_berlin                                                                                                                         --
 --				adressen.dv_adressen_sachsen_anhalt                                                                                                                 --
@@ -20,17 +22,29 @@
 Drop rule if exists rule_asressen_update on adressen.adressen;
 
 
-
 CREATE OR REPLACE RULE rule_asressen_update
 	AS ON UPDATE TO adressen.adressen
 		DO ALSO (
+			-- on adressen.adresse_abschluss
+			update adressen.adresse_abschluss set ne_checked=(select case when lower(new.ne_checked) = 'ja' then True else false end)
+								, adresse_checked =(select case when lower(new.adresse_checked) = 'ja' then True else false end)
+								, vid=new.vid
+								, _alkis_id_=new.alkis_id
+								, _strasse_ = new.strasse
+								, _plz_ = new.plz
+								, _haus_nr_=new.hausnr
+								, _adresszusatz_=new.adresszusatz
+								, _ort_=new.ort
+								,_geom_ = new.geom
+								, _trig='master'  where old.id=_adresse_id ;
+			update adressen.adresse_abschluss  set _trig='dv' where _trig!='dv'; 
+		
+		
 			update adressen.dv_adressen_berlin set
 					_id=new.id,
 					alkis_id =NEW.alkis_id
 					,vid =NEW.vid
-					--,geom =(select geom from adressen._geometry_adresse_25833 g where g._id=old.id union all select null limit 1)
-					--,geom=(select st_setsrid(  st_point(new._x::numeric, new._y::numeric), new._epsg_code) )
-					, geom=st_transform(new.geom, 25833)   --#new#
+					, geom=st_transform(new.geom, 25833)
 					,typ =NEW.typ
 					,ortsnetzbereiche =NEW.ortsnetzbereiche
 					,gemeinde_name =NEW.gemeinde_name
@@ -70,9 +84,7 @@ CREATE OR REPLACE RULE rule_asressen_update
 					_id=new.id,
 					alkis_id =NEW.alkis_id
 					,vid =NEW.vid
-					--,geom =(select geom from adressen._geometry_adresse_25833 g where g._id=old.id union all select null limit 1)
-					--,geom=(select st_setsrid(  st_point(new._x::numeric, new._y::numeric), new._epsg_code) )
-					, geom=st_transform(new.geom, 25833)   --#new#
+					, geom=st_transform(new.geom, 25833)
 					,typ =NEW.typ
 					,ortsnetzbereiche =NEW.ortsnetzbereiche
 					,gemeinde_name =NEW.gemeinde_name
@@ -112,9 +124,7 @@ CREATE OR REPLACE RULE rule_asressen_update
 					_id=new.id,
 					alkis_id =NEW.alkis_id
 					,vid =NEW.vid
-					--,geom =(select geom from adressen._geometry_adresse_25832 g where g._id=old.id union all select null limit 1)
-					--,geom=(select st_setsrid(  st_point(new._x::numeric, new._y::numeric), new._epsg_code) )
-					, geom=st_transform(new.geom, 25832)   --#new#
+					, geom=st_transform(new.geom, 25832)
 					,typ =NEW.typ
 					,ortsnetzbereiche =NEW.ortsnetzbereiche
 					,gemeinde_name =NEW.gemeinde_name
@@ -151,4 +161,6 @@ CREATE OR REPLACE RULE rule_asressen_update
 			UPDATE adressen.dv_adressen_sachsen_anhalt set _trig='vd' where  _id=new.id;
 		);
 
+
+	
 

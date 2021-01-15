@@ -1,10 +1,10 @@
-This is the local repository of the Database development of DNS_NET_GEODB
+This is the local repository of the Database development of DNS_NET_GeoDB
 
 Main
-	|=> test
-		|=> develop
-			|=> feature (functions and triggers ,... that are going to be appended to the develop.)
-			
+	|=> develop
+		|=> feature/feature_1 : chnages on some part of the DB. e.g. update model A or Change adresses
+		|=> feature/feature_1 : chnages on some part of the DB. e.g. update model A or Change adresses
+		
 Every schema has a folder.
 
 DNS GIS Group

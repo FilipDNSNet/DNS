@@ -5,7 +5,8 @@
 -- Wanted:    -----------------------------------------------------------------------------------------------------------------------------
 
 select  distinct on (ax_flurstueck.gml_id) ax_flurstueck.gml_id,
-	ax_flurstueck.ogc_fid, ax_flurstueck.flurstueckskennzeichen,
+	ax_flurstueck.ogc_fid,
+	ax_flurstueck.flurstueckskennzeichen,
 	v_eigentuemer.flsnr,
 	ax_flurstueck.gemarkungsnummer,
 	v_eigentuemer.gemarkung,
@@ -24,6 +25,24 @@ from public.ax_flurstueck
 	right join gem_shl on gema_shl.gemshl = gem_shl.gemshl
 
 
+
+------------------------
+
+new._ogc_fid_					
+new._gml_id						
+new._flurstueckskennzeichen_ 	
+new._flsnr_						
+new._gemarkungsnummer_ 			
+new._gemarkung_					
+new._flurnummer_ 				
+new._nenner_ 					
+new._zaehler_					
+new._weistauf_ 					
+new._adressen_ 					
+new._eigentuemer_				
+new._gemname_					
+new._geom_ 						
+new._trig			
 
 -- v_eigentuemer:    -----------------------------------------------------------------------------------------------------------------------------
 
@@ -76,5 +95,22 @@ from public.ax_flurstueck
 	ax_flurstueck	2078399
 	flurst:			2076885
 	
+	
+	--generated sample date
+ogc_fid: 1     flsnr: 122953-011-00970/000  lagebez:null
+10	122955-008-00961/000 null
+519795	120101-001-00236/000 Pumpergraben
 
 
+
+
+--	Table:			n_entities:	used columns:
+--	gema_shl:		1429		(gemashl, gemarkung)
+--	gem_shl:		271			(gemname)
+--	strassen:		1970975		(flsnr, ff_stand)
+--	str_shl:		51243		(strshl, strname)
+--	eignerart:		2085287		(flsnr, ff_stand)
+--	eigner:			883699		(name1, name2, name3, name4, bestdnr, ff_stand)
+--	ax_flurstueck	2078399 	()
+--	flurst:			2076885		(flsnr , ff_stand, amtlflsfl, lagebez, gemashl)
+			

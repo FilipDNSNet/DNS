@@ -312,6 +312,16 @@ create or replace rule rule_dv_flurstueck_eigentuemer_on_delete
 
 
 
+-- Deployment on exisiting tables:
+
+insert into zusammenstellungen.dv_flurstueck_eigentuemer (_ogc_fid_, _gml_id, _flurstueckskennzeichen_, _gemarkungsnummer_, _flurnummer_, _nenner_, _zaehler_, _weistauf_, _geom_, _trig)
+	select ogc_fid, gml_id, flurstueckskennzeichen, gemarkungsnummer, flurnummer, nenner, zaehler, weistauf, wkb_geometry, 'master' from ax_flurstueck
+	--where ogc_fid in (1,2,3,4,5);
+	--limit 10;
+update zusammenstellungen.dv_flurstueck_eigentuemer set _trig='dv';
+update ax_flurstueck set ogc_fid = ogc_fid  ; --where ogc_fid in (1,2,3,4,5);
+
+select * from zusammenstellungen.dv_flurstueck_eigentuemer;
 
 -- ------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- 

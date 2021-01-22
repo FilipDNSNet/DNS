@@ -114,3 +114,83 @@ ogc_fid: 1     flsnr: 122953-011-00970/000  lagebez:null
 --	ax_flurstueck	2078399 	()
 --	flurst:			2076885		(flsnr , ff_stand, amtlflsfl, lagebez, gemashl)
 			
+			
+			
+create table bk_ax_flurstueck as select * from ax_flurstueck limit 1
+select * from bk_ax_flurstueck
+
+
+
+insert into zusammenstellungen.dv_flurstueck_eigentuemer (_ogc_fid_, _gml_id, _flurstueckskennzeichen_, _gemarkungsnummer_, _flurnummer_, _nenner_, _zaehler_, _weistauf_, _geom_, _trig)
+	select ogc_fid, gml_id, flurstueckskennzeichen, gemarkungsnummer, flurnummer, nenner, zaehler, weistauf, wkb_geometry, 'master' from ax_flurstueck
+	limit 10;
+	update zusammenstellungen.dv_flurstueck_eigentuemer set _trig='dv';
+-------------------------------------------------------------------------------------
+select count(*) from ax_flurstueck --=> 2078399
+select * from bk_ax_flurstueck
+delete from ax_flurstueck where ogc_fid=1
+
+insert into ax_flurstueck select * from bk_ax_flurstueck
+
+select * from t1
+
+select * from zusammenstellungen.dv_flurstueck_eigentuemer 
+select wkb_geometry from ax_flurstueck limit 1
+
+
+
+
+
+
+insert into zusammenstellungen.dv_flurstueck_eigentuemer (_ogc_fid_, _gml_id, _flurstueckskennzeichen_, _gemarkungsnummer_, _flurnummer_, _nenner_, _zaehler_, _weistauf_, _geom_, _trig)
+	select ogc_fid, gml_id, flurstueckskennzeichen, gemarkungsnummer, flurnummer, nenner, zaehler, weistauf, wkb_geometry, 'master' from ax_flurstueck
+	where ogc_fid in (1,2,3,4,5);
+	--limit 10;
+update zusammenstellungen.dv_flurstueck_eigentuemer set _trig='dv';
+update ax_flurstueck set ogc_fid = ogc_fid  where ogc_fid in (1,2,3,4,5);
+	
+	
+select * from zusammenstellungen.dv_flurstueck_eigentuemer 
+
+delete  from zusammenstellungen.dv_flurstueck_eigentuemer 
+
+(ogc_fid, gml_id, flurstueckskennzeichen, gemarkungsnummer, flurnummer, nenner, zaehler, weistauf, wkb_geometry, 'master'); 
+
+
+
+		_ogc_fid_=sel.ogc_fid
+		_gml_id=sel.gml_id
+		_flurstueckskennzeichen_=sel.flurstueckskennzeichen
+		_flsnr_=sel._flsnr
+		_gemarkungsnummer_=sel.gemarkungsnummer
+		_gemarkung_=sel._gemarkung
+		_flurnummer_=sel.flurnummer
+		_nenner_=sel.nenner
+		_zaehler_=sel.zaehler
+		_weistauf_=sel.weistauf
+		_adressen_=sel._adressen
+		_eigentuemer_=sel._eigentuemer
+		_gemeinde_=sel._gemname
+		_geom_=sel.wkb_geometry
+		
+		
+		
+update 		 zusammenstellungen.dv_flurstueck_eigentuemer  set _nenner_='WWW' 
+
+update ax_flurstueck set nenner=null where ogc_fid=1
+update ax_flurstueck set nenner='eeee<es' where ogc_fid=1
+
+select * from zusammenstellungen.dv_flurstueck_eigentuemer 
+select * from ax_flurstueck where ogc_fid=1
+
+
+create table t2 as select * from ax_flurstueck where ogc_fid in (1,2,3,4,5);
+select * from ax_flurstueck  where ogc_fid in (1,2,3,4,5);
+
+
+
+
+
+
+
+

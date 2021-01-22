@@ -15,7 +15,7 @@
 
 CREATE SCHEMA IF NOT EXISTS zusammenstellungen;
 
-
+drop table if exists zusammenstellungen.dv_flurstueck_eigentuemer;
 CREATE TABLE zusammenstellungen.dv_flurstueck_eigentuemer (
 	-- For Brandenburg : EPSGFcode 25833
 	-- (_ogc_fid_, _gml_id, _flurstueckskennzeichen_, _flsnr_, _gemarkungsnummer_, _gemarkung_, _flurnummer_
@@ -33,7 +33,7 @@ CREATE TABLE zusammenstellungen.dv_flurstueck_eigentuemer (
 	, _adressen_ text
 	, _eigentuemer_ text
 	, _gemeinde_ text
-	, _geom_ geometry('Polygon',25833)
+	, _geom_ geometry('GEOMETRY',25833)
 	, _trig text default 'dv'
 );
 ALTER TABLE zusammenstellungen.dv_flurstueck_eigentuemer add constraint pk_dv_flurstueck_eigentuemer primary key(_ogc_fid_);
@@ -316,7 +316,7 @@ create or replace rule rule_dv_flurstueck_eigentuemer_on_delete
 
 insert into zusammenstellungen.dv_flurstueck_eigentuemer (_ogc_fid_, _gml_id, _flurstueckskennzeichen_, _gemarkungsnummer_, _flurnummer_, _nenner_, _zaehler_, _weistauf_, _geom_, _trig)
 	select ogc_fid, gml_id, flurstueckskennzeichen, gemarkungsnummer, flurnummer, nenner, zaehler, weistauf, wkb_geometry, 'master' from ax_flurstueck
-	--where ogc_fid in (1,2,3,4,5);
+	;--where ogc_fid in (1,2,3,4,5);
 	--limit 10;
 update zusammenstellungen.dv_flurstueck_eigentuemer set _trig='dv';
 update ax_flurstueck set ogc_fid = ogc_fid  ; --where ogc_fid in (1,2,3,4,5);

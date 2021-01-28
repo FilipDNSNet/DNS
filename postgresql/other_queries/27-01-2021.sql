@@ -56,6 +56,8 @@ select * from temp.adressen_michendorf_nuthetal
 alter table temp.adressen_michendorf_nuthetal add column flrst_eigentuemr integer
 alter table temp.adressen_michendorf_nuthetal add column flrst_eigentuemr_gml_id text
 
+
+
 create table ans as
 	select adr.id adr_id, _ogc_fid_ from temp.adressen_michendorf_nuthetal adr join (select * from zusammenstellungen.dv_flurstueck_eigentuemer where _gemeinde_ like 'Michendorf%' or _gemeinde_ like 'Nuthetal%' )sel
 		on adr.alkis_id = ANY(_weistauf_) 
@@ -67,3 +69,13 @@ update  temp.adressen_michendorf_nuthetal  set flrst_eigentuemr=ans._ogc_fid_
 update 	temp.adressen_michendorf_nuthetal  set  flrst_eigentuemr_gml_id= sel._gml_id
 	from (select * from zusammenstellungen.dv_flurstueck_eigentuemer where _gemeinde_ like 'Michendorf%' or _gemeinde_ like 'Nuthetal%' ) sel
 		where flrst_eigentuemr=sel._ogc_fid_
+
+
+
+-- rename the columns:
+alter table temp.adressen_michendorf_nuthetal add column flstck_gml_id varchar(16);
+Update temp.adressen_michendorf_nuthetal set flstck_gml_id=flrst_eigentuemr_gml_id ;
+
+alter table temp.adressen_michendorf_nuthetal  drop column flrst_eigentuemr;
+alter table temp.adressen_michendorf_nuthetal drop column flrst_eigentuemr_gml_id;
+drop table ans

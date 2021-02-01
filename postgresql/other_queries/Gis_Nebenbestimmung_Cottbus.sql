@@ -97,7 +97,45 @@ insert into "Leerrohre" ("LR_Art" , "LR_Sonst", "LR_Anzahl",  "Anzahl" ,  "LR_Re
 		, st_transform(geom,4258)
 	from comsof.schutzrohr;
 
-	
+--Für not gefördert:
+--DROP table "Leerrohre" ;
+--cREATE TABLE "Leerrohre" ("ID" SERIAL , "LR_Art" integer, "LR_Sonst" Text, "LR_Anzahl" integer, "Anzahl" integer, "LR_Reserv" integer , "Lae_LR" numeric, geom geometry(GEOMETRY, 4258) );
+--insert into "Leerrohre" ("LR_Art" , "LR_Sonst", "LR_Anzahl",  "Anzahl" ,  "LR_Reserv",  "Lae_LR", geom )
+--	select 
+--		CASE 
+--			when r.anzahl_microducts=1 then 6
+--			when r.anzahl_microducts=4 then 11
+--			when r.anzahl_microducts=12 then 14
+--			when r.anzahl_microducts=24 then 14
+--		END LR_art
+--		, Null LR_Sonst
+--		, r.anzahl_microducts LR_Anzahl 
+--		, case 
+--			when r.typ='Rohrverband' then (select count(*)+1 from comsof.rohr r1 where st_equals(r1.geom , r.geom) and r1.id<>r.id ) 
+--			else 1
+--		End Anzahl
+--		, (select count(*) from comsof.microduct m where m.rohr_id=r.id and m.kabel_id is null)  as  LR_Reserv
+--		, round(st_length(st_transform(geom,4258), false) ::numeric,1) Lae_LR
+--		, st_transform(geom,4258)
+--	from comsof.rohr r where netzebene='Verteiler-Ebene'
+--
+--	union all 
+--		
+--	select 
+--		1 LR_art
+--		, Null LR_Sonst
+--		, null LR_Anzahl 
+--		, Null Anzahl
+--		, Null  LR_Reserv
+--		, round(st_length(st_transform(geom,4258), false) ::numeric ,1) Lae_LR
+--		, st_transform(geom,4258)
+--	from comsof.schutzrohr sc
+--		where id in (
+--			select schutzrohr_id from comsof.rohr_schutzrohr 
+--				where rohr_uuid in (	select uuid  from comsof.rohr r where netzebene='Verteiler-Ebene')--nur verteiler ebene
+--			)  
+--			and not st_contains( (select st_union(geom) from prj_cottbus.schutzrohr) , sc.geom) ;-- nicht gefördert
+
 	
 
 

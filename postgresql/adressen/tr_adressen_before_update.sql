@@ -20,6 +20,8 @@
 CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 -- it efects adressen.adressen only.
 -- #todo later :  auto-Check (no update) value for bundestland, ONB , ... via geometry
+	DECLARE
+		t boolean :=False;
 	BEGIN
 		if new.bundesland='Berlin' or new.bundesland='Brandenburg' then
 			new._epsg_code:= 25833;
@@ -48,6 +50,61 @@ CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 		elsif new.adresse_checked='Nein' Then 
 			new.datum_adresse_checked=Null;
 		end if;
+		
+		if st_isvalid(new.geom)=True and st_srid(geom)='4326' Then
+			select True into t;
+		end if;
+		--bundesland :
+		if new.bundesland is null AND t
+			AND exists (SELECT FROM information_schema.tables WHERE  table_schema='basisdaten' AND table_name='bundeslaender_generalisierte_grenzen')
+			THEN
+			select bn.gen from basisdaten.bundeslaender_generalisierte_grenzen bn
+				where st_contains(bn.geom, new.geom) limit 1 into new.bundesland;
+		end if;
+		
+		--Gemeinde:
+		----		Table "basisdaten.zusammengestellten_gemeinden" is created manually.
+		if (new.gemeinde_name is Null OR new.gemeinde_schluessel is null) 
+			AND exists (SELECT FROM information_schema.tables WHERE  table_schema='basisdaten' AND table_name='zusammengestellten_gemeinden')
+			THEN
+			if new.gemeinde_schluessel is not null then
+				select gem_name from basisdaten.zusammengestellten_gemeinden where gem_nr=new.gemeinde_schluessel into new.gemeinde_name;
+			elsif new.gemeinde_name is not Null then
+				select gem_nr from basisdaten.zusammengestellten_gemeinden where gem_name=new.gemeinde_name into new.gemeinde_schluessel;
+			elsif new.bundesland in ('Berlin') THEN
+				select 'Berlin', '11000000'	into new.gemeinde_name, new.gemeinde_schluessel;
+			elsif t THEN
+				select gem_name, gem_nr from basisdaten.zusammengestellten_gemeinden pl where st_contains(pol.geom, new.geom) limit 1
+					into new.gemeinde_name, new.gemeinde_schluessel;
+			end if;				
+		end if;
+
+		--onb:
+		if new.ortsnetzbereiche is null and t 
+			AND exists (SELECT FROM information_schema.tables WHERE table_schema='basisdaten' AND table_name='ortznetzbereiche_deutschland_bneta')
+			THEN
+				select onb_nummer from basisdaten.ortznetzbereiche_deutschland_bneta pl where st_contains(pol.geom, new.geom) 
+					into new.ortsnetzbereiche;
+		End if;
+		
+		
+		
+		----kreis:
+		----		Table "basisdaten.zusammengestellten_kreise" is created manually.
+		if (new.kreis is Null OR new.kreis_nr is null) 
+			AND exists (SELECT FROM information_schema.tables WHERE  table_schema='basisdaten' AND table_name='zusammengestellten_kreise')
+			THEN
+			if new.kreis_nr is not null then
+				select kr_name from basisdaten.zusammengestellten_kreise where kr_nr=new.kreis_nr into new.kreis;
+			elsif new.kreis is not Null then
+				select kr_nr from basisdaten.zusammengestellten_kreise where kr_name=new.kreis into new.kreis_nr;
+			elsif t THEN
+				select kr_name, kr_nr from basisdaten.zusammengestellten_kreise pl where st_contains(pol.geom, new.geom) limit 1
+					into new.kreis, new.kreis_nr;
+			end if;				
+		end if;
+		
+		
 		
 		return New;
 	END;

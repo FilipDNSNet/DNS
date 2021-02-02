@@ -106,6 +106,14 @@ CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 		
 		
 		
+		-- verifiziertstyp
+				if  new.verifiziertstyp is null and new.alkis_id not like 'DE%' Then 
+			select 'unsicher' into new.verifiziertstyp;
+		end if;
+		
+		-- #todo PLZ 
+		
+		
 		return New;
 	END;
 $$ LANGUAGE PLPGSQL;

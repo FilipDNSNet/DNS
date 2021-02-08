@@ -135,6 +135,8 @@ create table ans as
 	from adressen.adressen_nexiga_wgs84 adr join potentialanalysen.pop_clusters_stf_2 pol 
 		on  st_contains(pol.geom_m, st_transform(adr.geom, 4326));
 
+create index inx_ans_temp_id on ans(id);
+
 alter table potentialanalysen.pop_clusters_stf_2 drop column geom_m;
 
 drop table if exists ans2 ;	

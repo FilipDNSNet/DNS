@@ -8,7 +8,7 @@
 --	schema:		adressen                                                                                                                                            --
 --	typ:		Dynamic-Linked_Table                                                                                                                                --
 --	cr.date:	13.10.2020                                                                                                                                          --
---	ed.date:	13.11.2020                                                                                                                                          --
+--	ed.date:	09.02.2021                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
 --				adressen.adressen                                                                                                                                   --
 --	purpose: 	                                                                                                                                                    --
@@ -100,8 +100,21 @@ COMMENT ON TABLE adressen.dv_adressen_sachsen_anhalt IS E'Dynamic-view "dv_adres
 	\nEvery change on the master tables are mirrored here. Man cannot insert or delete from this table.\nDeveloped by DNSNET GIS-Team.  \n13-10-2020\n This table in practce would be FDW';	
 	
 	
-	
 
+-- on 09-02-2021
+
+
+alter table adressen.dv_adressen_sachsen_anhalt add column verifizierungstyp text;
+alter table adressen.dv_adressen_sachsen_anhalt add column analysiert_durch text;
+alter table adressen.dv_adressen_sachsen_anhalt add column foerder_status text;
+alter table adressen.dv_adressen_sachsen_anhalt add column beschreibung text;
+--constraints
+alter table adressen.dv_adressen_sachsen_anhalt add constraint fk_adresse_sachsen_anhalt_verifizierungstyp foreign key (verifizierungstyp)
+	references enum_adressen_verifizierungstyp(val) on update cascade;
+alter table adressen.dv_adressen_sachsen_anhalt add constraint fk_adresse_sachsen_anhalt_analysiert_durch foreign key (analysiert_durch)
+	references enum_adressen_analysiert_durch(val) on update cascade;
+alter table adressen.dv_adressen_sachsen_anhalt add constraint fk_adresse_sachsen_anhalt_foerder_status foreign key (foerder_status)
+	references enum_adressen_foerder_status(val) on update cascade;
 
 
 

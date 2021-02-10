@@ -6,7 +6,7 @@
 --	schema:		public                                                                                                                                              
 --	typ:		Trigger                                                                                                                                                
 --	cr.date:	02.12.2020                                                                                                                                          
---	ed.date:	03.12.2020                                                                                                                                          
+--	ed.date:	09.02.2021                                                                                                                                          
 --	impressionable_tables:
 				adressen.adressen																																		
 --				adressen.dv_adressen_brandenburg                                                                                                                                                                                                                                                                   
@@ -60,6 +60,10 @@ BEGIN
 			--AND (ST_INTERSECTS(OLD.geom,new.geom) or ((OLD.geom is null) and (new.geom is null) ))
 			AND (ST_equals(OLD.geom,new.geom) or ((OLD.geom is null) and (new.geom is null) )) --#new#
 			----AND COALESCE( ST_INTERSECTS(OLD.geom,new.geom),FALSE )
+			AND (NEW.verifizierungstyp = OLD.verifizierungstyp or ((NEW.verifizierungstyp is null) and (OLD.verifizierungstyp is null)))
+			AND (NEW.analysiert_durch = OLD.analysiert_durch or ((NEW.analysiert_durch is null) and (OLD.analysiert_durch is null)))
+			AND (NEW.foerder_status = OLD.foerder_status or ((NEW.foerder_status is null) and (OLD.foerder_status is null)))
+			AND (NEW.beschreibung = OLD.beschreibung or ((NEW.beschreibung is null) and (OLD.beschreibung is null)))
 		Then TRUE
 		else FALSE END
 	into t;
@@ -108,8 +112,12 @@ BEGIN
 				,qualitaet =NEW.qualitaet
 				,adresse_status =NEW.adresse_status
 				,geom=st_transform(new.geom, 4326)--#new#
+				,verifizierungstyp =NEW.verifizierungstyp
+				,analysiert_durch =NEW.analysiert_durch
+				,foerder_status =NEW.foerder_status
+				,beschreibung =NEW.beschreibung				
 			where adressen.id=new._id;
-		UPDATE adressen._geometry_adresse_25833 set geom=new.geom where adressen._geometry_adresse_25833._id=new._id;
+		--UPDATE adressen._geometry_adresse_25833 set geom=new.geom where adressen._geometry_adresse_25833._id=new._id;
 		RETURN NULL;
 	else
 		RETURN NULL;

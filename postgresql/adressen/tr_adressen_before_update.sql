@@ -6,7 +6,7 @@
 --	schema:		public                                                                                                                                            --  
 --	typ:		Trigger                                                                                                                                           --     
 --	cr.date:	04.01.2021                                                                                                                                        --  
---	ed.date:	04.01.2021                                                                                                                                        --  
+--	ed.date:	09.02.2021                                                                                                                                        --  
 --	impressionable_tables:                                                                                                                                        --
 --				adressen.adressen  		                                                                                                                          --
 --	purpose: 	                                                                                                                                                  --  
@@ -51,7 +51,7 @@ CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 			new.datum_adresse_checked=Null;
 		end if;
 		
-		if st_isvalid(new.geom)=True and st_srid(geom)='4326' Then
+		if st_isvalid(new.geom)=True and st_srid(new.geom)='4326' Then
 			select True into t;
 		end if;
 		--bundesland :
@@ -74,7 +74,7 @@ CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 			elsif new.bundesland in ('Berlin') THEN
 				select 'Berlin', '11000000'	into new.gemeinde_name, new.gemeinde_schluessel;
 			elsif t THEN
-				select gem_name, gem_nr from basisdaten.zusammengestellten_gemeinden pl where st_contains(pol.geom, new.geom) limit 1
+				select gem_name, gem_nr from basisdaten.zusammengestellten_gemeinden pol where st_contains(pol.geom, new.geom) limit 1
 					into new.gemeinde_name, new.gemeinde_schluessel;
 			end if;				
 		end if;
@@ -83,7 +83,7 @@ CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 		if new.ortsnetzbereiche is null and t 
 			AND exists (SELECT FROM information_schema.tables WHERE table_schema='basisdaten' AND table_name='ortznetzbereiche_deutschland_bneta')
 			THEN
-				select onb_nummer from basisdaten.ortznetzbereiche_deutschland_bneta pl where st_contains(pol.geom, new.geom) 
+				select onb_nummer from basisdaten.ortznetzbereiche_deutschland_bneta pol where st_contains(pol.geom, new.geom) 
 					into new.ortsnetzbereiche;
 		End if;
 		
@@ -99,16 +99,16 @@ CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 			elsif new.kreis is not Null then
 				select kr_nr from basisdaten.zusammengestellten_kreise where kr_name=new.kreis into new.kreis_nr;
 			elsif t THEN
-				select kr_name, kr_nr from basisdaten.zusammengestellten_kreise pl where st_contains(pol.geom, new.geom) limit 1
+				select kr_name, kr_nr from basisdaten.zusammengestellten_kreise pol where st_contains(pol.geom, new.geom) limit 1
 					into new.kreis, new.kreis_nr;
 			end if;				
 		end if;
 		
 		
 		
-		-- verifiziertstyp
-				if  new.verifiziertstyp is null and new.alkis_id not like 'DE%' Then 
-			select 'unsicher' into new.verifiziertstyp;
+		-- verifizierungstyp
+				if  new.verifizierungstyp is null and new.alkis_id not like 'DE%' and lower(new.adresse_checked)='nein' Then 
+			select 'unsicher' into new.verifizierungstyp;
 		end if;
 		
 		-- #todo PLZ 
@@ -117,6 +117,8 @@ CREATE OR REPLACE function tr_adressen_before_update() returns trigger as $$
 		return New;
 	END;
 $$ LANGUAGE PLPGSQL;
+
+
 
 
 DROp TRIGGER IF EXISTS  tr_adressen_before_update on adressen.adressen;

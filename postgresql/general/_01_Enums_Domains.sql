@@ -104,6 +104,10 @@ DROP TABLE IF EXISTS enum_bundesland;
 drop table if exists enum_status_nvt; --for dv
 drop table if exists enum_status_ap;--for dv
 
+DROP TABLE IF EXISTS enum_adressen_verifizierungstyp;
+DROP TABLE IF EXISTS enum_adressen_anlysiert_durch;
+DROP TABLE IF EXISTS enum_adressen_foerder_status;
+
 
 
 /*###	Domains	###################################################################################################################################*/
@@ -381,3 +385,22 @@ CREATE TABLE enum_status_ap (val TEXT PRIMARY KEY);
 	Insert into enum_status_ap values('cableInside');
 	Insert into enum_status_ap values('connected');
 	Insert into enum_status_ap values('passed');
+
+
+
+CREATE TABLE enum_adressen_verifizierungstyp (val TEXT PRIMARY KEY);
+	INSERT INTO enum_adressen_verifizierungstyp VALUES('amtlich');
+	INSERT INTO enum_adressen_verifizierungstyp VALUES('vertrieb');
+	INSERT INTO enum_adressen_verifizierungstyp VALUES('extern');
+	INSERT INTO enum_adressen_verifizierungstyp VALUES('DNS-Net/Plannung');
+	INSERT INTO enum_adressen_verifizierungstyp VALUES('unsicher'); 
+	
+CREATE TABLE enum_adressen_analysiert_durch (val TEXT PRIMARY KEY);
+	INSERT INTO enum_adressen_analysiert_durch VALUES('COMSOF');
+	INSERT INTO enum_adressen_analysiert_durch VALUES('AND');
+	INSERT INTO enum_adressen_analysiert_durch VALUES('TKI');
+
+CREATE TABLE enum_adressen_foerder_status (val TEXT PRIMARY KEY);
+	INSERT INTO enum_adressen_foerder_status VALUES('weisse-Flecke');
+	INSERT INTO enum_adressen_foerder_status VALUES('graue-Flecke');
+	INSERT INTO enum_adressen_foerder_status VALUES('schwarze-Felcke');

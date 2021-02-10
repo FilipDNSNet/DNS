@@ -8,7 +8,7 @@
 --	schema:		adressen                                                                                                                                            --
 --	typ:		Table                                                                                                                                				--
 --	cr.date:	05.09.2020                                                                                                                                          --
---	ed.date:	02.12.2020                                                                                                                                          --
+--	ed.date:	09.02.2021                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
 --				adressen.adressen                                                                                                                                   --
 --	purpose: 	                                                                                                                                                    --
@@ -98,11 +98,30 @@ alter table adressen.adressen add column geom geometry(POINT,4326);
 create index inx_adressen_adressen_geom on adressen.adressen using GIST(geom);
 
 
-COMMENT ON TABLE adressen.adressen IS E'This table is the master table for the addresses (every Bundesland.). It does not contain geometry. 
-		The geometry is linked through id to separated tables acoording to their CRS.\n 
-		The coordinates stored as text in the table are updated on any update to the geometry in other tables through some triggers.
+COMMENT ON TABLE adressen.adressen IS E'This table is the master table for the addresses (every Bundesland.).  
+		\n 
 		\n, Developed by DNSNET GIS-Team. \n05-09-2020';
 
 
+---- on 09-02-2021:
+
+alter table adressen.adressen add column verifizierungstyp text;
+alter table adressen.adressen add column analysiert_durch text;
+alter table adressen.adressen add column foerder_status text;
+alter table adressen.adressen add column beschreibung text;
 
 
+COMMENT ON TABLE adressen.adressen IS E'This table is the master table for the addresses (every Bundesland.).  
+		\n 
+		\n, Developed by DNSNET GIS-Team. \n05-09-2020';
+
+--constraints
+
+alter table adressen.adressen add constraint fk_adresse_verifizierungstyp foreign key (verifizierungstyp)
+	references enum_adressen_verifizierungstyp(val) on update cascade;
+
+alter table adressen.aderessen add constraint fk_adresse_analysiert_durch foreign key (analysiert_durch)
+	references enum_adressen_analysiert_durch(val) on update cascade;
+
+alter table adressen.adressen add constraint fk_adresse_foerder_status foreign key (foerder_status)
+	references enum_adressen_foerder_status(val) on update cascade;

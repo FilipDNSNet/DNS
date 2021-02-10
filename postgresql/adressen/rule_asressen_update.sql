@@ -6,7 +6,7 @@
 --	schema:		public                                                                                                                                              --
 --	typ:		Rule                                                                                                                                                --
 --	cr.date:	02.12.2020                                                                                                                                          --
---	ed.date:	04.01.2021                                                                                                                                          --
+--	ed.date:	09.02.2021                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
 --				adressen.adressen                                                                                                                                   --
 --				adressen.dv_adressen_brandenburg	                                                                                                                --
@@ -76,6 +76,10 @@ CREATE OR REPLACE RULE rule_asressen_update
 					,adresse_status =NEW.adresse_status
 					,_x =new._x
 					,_y =new._y
+					,verifizierungstyp =NEW.verifizierungstyp --on 09.02.2021
+					,analysiert_durch =NEW.analysiert_durch --on 09.02.2021
+					,foerder_status =NEW.foerder_status --on 09.02.2021
+					,beschreibung =NEW.beschreibung		 --on 09.02.2021
 					,_trig='adressen'
 				where adressen.dv_adressen_berlin._id=old.id;
 			UPDATE adressen.dv_adressen_berlin set _trig='vd' where  _id=new.id;
@@ -116,6 +120,10 @@ CREATE OR REPLACE RULE rule_asressen_update
 					,adresse_status =NEW.adresse_status
 					,_x =new._x
 					,_y =new._y
+					,verifizierungstyp =NEW.verifizierungstyp --on 09.02.2021
+					,analysiert_durch =NEW.analysiert_durch --on 09.02.2021
+					,foerder_status =NEW.foerder_status --on 09.02.2021
+					,beschreibung =NEW.beschreibung	 --on 09.02.2021
 					,_trig='adressen'
 				where adressen.dv_adressen_brandenburg._id=old.id;
 			UPDATE adressen.dv_adressen_brandenburg set _trig='vd' where  _id=new.id;
@@ -156,6 +164,10 @@ CREATE OR REPLACE RULE rule_asressen_update
 					,adresse_status =NEW.adresse_status
 					,_x =new._x
 					,_y =new._y
+					,verifizierungstyp =NEW.verifizierungstyp --on 09.02.2021
+					,analysiert_durch =NEW.analysiert_durch --on 09.02.2021
+					,foerder_status =NEW.foerder_status --on 09.02.2021
+					,beschreibung =NEW.beschreibung	 --on 09.02.2021
 					,_trig='adressen'
 				where adressen.dv_adressen_sachsen_anhalt._id=old.id;
 			UPDATE adressen.dv_adressen_sachsen_anhalt set _trig='vd' where  _id=new.id;

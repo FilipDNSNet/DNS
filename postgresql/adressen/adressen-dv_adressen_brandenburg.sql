@@ -8,7 +8,7 @@
 --	schema:		adressen                                                                                                                                            --
 --	typ:		Dynamic-Linked_Table                                                                                                                                --
 --	cr.date:	13.10.2020                                                                                                                                          --
---	ed.date:	09.02.2021                                                                                                                                          --
+--	ed.date:	11.02.2021                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
 --				adressen.adressen                                                                                                                                   --
 --	purpose: 	                                                                                                                                                    --
@@ -112,3 +112,10 @@ alter table adressen.dv_adressen_brandenburg add constraint fk_adresse_brandenbu
 	references enum_adressen_analysiert_durch(val) on update cascade;
 alter table adressen.dv_adressen_brandenburg add constraint fk_adresse_brandenburg_foerder_status foreign key (foerder_status)
 	references enum_adressen_foerder_status(val) on update cascade;
+
+
+---- on 11-02-2021:
+alter table adressen.dv_adressen_brandenburg alter column typ drop not null;-- 11.02.2021
+alter table adressen.dv_adressen_brandenburg alter column typ drop default;-- 11.02.2021
+
+

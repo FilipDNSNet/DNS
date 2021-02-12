@@ -190,6 +190,7 @@ CREATE TABLE enum_strecke_typ (val TEXT PRIMARY KEY);
 CREATE TABLE enum_adresse_typ (val TEXT PRIMARY KEY);
 	INSERT INTO enum_adresse_typ VALUES('A: Adresse');
 	INSERT INTO enum_adresse_typ VALUES('B: Platz/Strasse ohne Hausnummer');
+	INSERT INTO enum_adresse_typ VALUES('C: Platz ohne Strassenbezeichnung');-- on 11.02.2021
 
 CREATE TABLE enum_adresse_verifiziert (val TEXT PRIMARY KEY);
 	INSERT INTO enum_adresse_verifiziert VALUES('Nicht-verifiziert');
@@ -362,8 +363,8 @@ CREATE TABLE enum_farbe (val TEXT PRIMARY KEY, farbe varchar(25));/*DIN 47002*/
 CREATE TABLE enum_bundesland (val TEXT PRIMARY KEY, abkuertzung varchar(50), _epsg_code varchar(5));
 alter table enum_bundesland add constraint fk_bundesland_epsg foreign key (_epsg_code) references enum_epsg (val) on update cascade;
 	INSERT INTO enum_bundesland VALUES ('Berlin', 'br', '25833');
-	INSERT INTO enum_bundesland VALUES ('Brandenburg', 'bb', 25833);
-	INSERT INTO enum_bundesland VALUES ('Sachsen-Anhalt', 'st', 25832);
+	INSERT INTO enum_bundesland VALUES ('Brandenburg', 'bb', '25833');
+	INSERT INTO enum_bundesland VALUES ('Sachsen-Anhalt', 'st', '25832');
 	
 
 
@@ -401,6 +402,6 @@ CREATE TABLE enum_adressen_analysiert_durch (val TEXT PRIMARY KEY);
 	INSERT INTO enum_adressen_analysiert_durch VALUES('TKI');
 
 CREATE TABLE enum_adressen_foerder_status (val TEXT PRIMARY KEY);
-	INSERT INTO enum_adressen_foerder_status VALUES('weisse-Flecke');
-	INSERT INTO enum_adressen_foerder_status VALUES('graue-Flecke');
-	INSERT INTO enum_adressen_foerder_status VALUES('schwarze-Felcke');
+	INSERT INTO enum_adressen_foerder_status VALUES('Weisse Flecken');
+	INSERT INTO enum_adressen_foerder_status VALUES('Graue Flecken');
+	INSERT INTO enum_adressen_foerder_status VALUES('Schwarze Felcken');

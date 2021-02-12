@@ -8,7 +8,7 @@
 --	schema:		adressen                                                                                                                                            --
 --	typ:		Dynamic-Linked_Table                                                                                                                                --
 --	cr.date:	13.10.2020                                                                                                                                          --
---	ed.date:	09.02.2021                                                                                                                                          --
+--	ed.date:	11.02.2021                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
 --				adressen.adressen                                                                                                                                   --
 --	purpose: 	                                                                                                                                                    --
@@ -117,4 +117,8 @@ alter table adressen.dv_adressen_sachsen_anhalt add constraint fk_adresse_sachse
 	references enum_adressen_foerder_status(val) on update cascade;
 
 
+
+---- on 11-02-2021:
+alter table adressen.dv_adressen_sachsen_anhalt alter column typ drop not null;-- 11.02.2021
+alter table adressen.dv_adressen_sachsen_anhalt alter column typ drop default;-- 11.02.2021
 

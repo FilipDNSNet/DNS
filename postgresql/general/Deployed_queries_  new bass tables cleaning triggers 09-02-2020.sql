@@ -111,8 +111,8 @@ Drop rule if exists rule_geometryadresse25832_update_2 on adressen._geometry_adr
 
 -----------------------------------------------------------------------------------------
 -- Drop tables:
-DROP TABLE IF EXISTS _geometry_adresse_25833;
-DROP TABLE IF EXISTS _geometry_adresse_25832;
+DROP TABLE IF EXISTS adressen._geometry_adresse_25833;
+DROP TABLE IF EXISTS adressen._geometry_adresse_25832;
 
 -----------------------------------------------------------------------------------------
 -- Drop Schemas:

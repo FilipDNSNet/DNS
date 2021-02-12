@@ -6,7 +6,7 @@
 --	schema:		public                                                                                                                                            --  
 --	typ:		Trigger                                                                                                                                           --     
 --	cr.date:	04.01.2021                                                                                                                                        --  
---	ed.date:	09.02.2021                                                                                                                                        --  
+--	ed.date:	11.02.2021                                                                                                                                        --  
 --	impressionable_tables:                                                                                                                                        --
 				adressen.adressen																																  --
 --	purpose: 	                                                                                                                                                  --  
@@ -96,6 +96,24 @@ BEGIN
 		if  new.verifizierungstyp is null and new.alkis_id not like 'DE%' and lower(new.adresse_checked)='nein' Then 
 			select 'unsicher' into new.verifizierungstyp;
 		end if;
+		
+		--typ		
+		if new.typ is null and (new.strasse is null or lower(new.strasse) in ('keins', 'kein', 'keine', 'ohne', '-', ' ','') ) 
+			and (new.psn is null or lower(new.psn) in ('keins', 'kein', 'keine', 'ohne', '-', ' ','') )
+			and new.strassenschluessel is null THEN
+				select 'C: Platz ohne Strassenbezeichnung' into new.typ;
+		elsif new.typ is null and (new.strasse is NOT null and lower(new.strasse) NOT in ('keins', 'kein', 'keine', 'ohne', '-', ' ','') ) 
+			and  (new.hausnr is null) then
+				select 'B: Platz/Strasse ohne Hausnummer' into new.typ;
+		elsif new.typ is null then
+			select 'A: Adresse' into new.typ;
+		end if;
+		
+		--aufnahmedatum
+		if new.aufnahmedatum is null then 
+			select now() into new.aufnahmedatum;
+		end if;
+
 
 	return new;
 END; $$ language plpgsql;

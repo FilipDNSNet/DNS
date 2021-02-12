@@ -8,7 +8,7 @@
 --	schema:		adressen                                                                                                                                            --
 --	typ:		Table                                                                                                                                				--
 --	cr.date:	05.09.2020                                                                                                                                          --
---	ed.date:	09.02.2021                                                                                                                                          --
+--	ed.date:	11.02.2021                                                                                                                                          --
 --	impressionable_tables:                                                                                                                                          --
 --				adressen.adressen                                                                                                                                   --
 --	purpose: 	                                                                                                                                                    --
@@ -125,3 +125,8 @@ alter table adressen.aderessen add constraint fk_adresse_analysiert_durch foreig
 
 alter table adressen.adressen add constraint fk_adresse_foerder_status foreign key (foerder_status)
 	references enum_adressen_foerder_status(val) on update cascade;
+
+
+---- on 11-02-2021:
+alter table adressen.adressen alter column typ drop not null;-- 11.02.2021
+alter table adressen.adressen alter column typ drop default;-- 11.02.2021

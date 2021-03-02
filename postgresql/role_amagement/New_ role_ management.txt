@@ -1,0 +1,19 @@
+Priviously we had a database for each project. now all of them come to on database: "dns_net_geodb"
+apart from priviousstrategy for each new database that we have edit and view groups, we define
+a new strategy for databases such as "dns_net_geodb".
+This database has different types of tables, and man cannot define an uniform user-definition-schema.
+each table might have different access level for people in a same department. 
+Therefore, some functions are defined:
+	access.dns_set_privileges_read(db text, sch text, tbl text, usr text)
+	access.dns_set_privileges_edit(db text, sch text, tbl text, usr text)
+	access.dns_revoke_privileges_on_table(db text, sch text, tbl text, usr text)
+	
+in each case we can easily grant or revoke privileges to users.
+in adition, we define a read only user_group : "gr_dns_net_geodb_readonly"
+, because most of the intern users, should be able to see the most tables.
+the difference with "gr_dns_net_geodb_viewer" is that the later can see all the tables.
+while "gr_dns_net_geodb_readonly" can see customized selection of tables.
+
+DNS_net Gis-Group
+
+01-03-2021

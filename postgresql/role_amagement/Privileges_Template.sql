@@ -10,7 +10,8 @@ with the following definitions:
 If the database already exists, it applies the privileges on the existin objects.
 to check later :
 	Foraign TABLES ??????
-last Edit: 09-09-2020
+last Edit: 04-03-2021
+09-09-2020
 Hamed
 */
 
@@ -112,6 +113,9 @@ BEGIN
 		IF obj.object_type in ('table', 'view', 'materialized view') THEN
 			EXECUTE 'GRANT SELECT ON TABLE '||obj.object_identity||' TO gr_<db_name>_viewer;';
 			EXECUTE 'GRANT SELECT, UPDATE, DELETE, INSERT, TRUNCATE ON TABLE '||obj.object_identity||' TO gr_<db_name>_editor;';
+		ELSIF obj.object_type='sequence' Then
+				EXECUTE 'GRANT SELECT, USAGE ON SEQUENCE '||obj.object_identity||' TO gr_<db_name>_editor;';
+				EXECUTE 'GRANT SELECT ON SEQUENCE '||obj.object_identity||' TO gr_<db_name>_viewer;';
 		END IF;
 	END LOOP;
 END

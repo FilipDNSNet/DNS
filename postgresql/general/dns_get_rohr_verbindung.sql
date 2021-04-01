@@ -34,7 +34,7 @@ declare
 	-- 	E.g. id_ende is the noten id of  a hausanschluss, and source_anf is the NVT
 	-- the second is the bezeichnung of the rohrs
 	-- the third is the id of the source-koten in text.
-	-- the force is the id of microducts
+	-- the forth is the id of microducts
 	ret text[];
 begin
 	execute('with recursive tr as (

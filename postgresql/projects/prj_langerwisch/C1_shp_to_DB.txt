@@ -1,0 +1,17 @@
+Import the comsof's output shapefiles as well as in_demandpoints.shp from input to the Database "dns_net_geodb" schema "comsof".
+The files should be in lower case. to make them lower case man can use the following code in MS-Windows batchfile
+	
+	for /f "Tokens=*" %f in ('dir /l/b/a-d') do (rename "%f" "%f")
+	
+
+
+
+Prerequisite:
+	C1_Before_COMSOF_Import.sql
+	
+
+
+
+
+DNS GIS-Group
+03-11-2020

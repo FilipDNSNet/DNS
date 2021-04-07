@@ -6,7 +6,7 @@
 --	schema:		public                                                                                                                                            --
 --	typ:		Trigger                                                                                                                                           --
 --	cr.date:	02.12.2020                                                                                                                                        --
---	ed.date:	04.01.2021                                                                                                                                        --
+--	ed.date:	06.04.2021                                                                                                                                        --
 --	impressionable_tables:                                                                                                                                        --
 --				adressen.dv_adressen_brandenburg																								                  --
 --				adressen.dv_adressen_berlin                                                                                                                       --
@@ -40,6 +40,7 @@ begin
 	elsif old.bundesland='Sachsen-Anhalt' then
 		delete from adressen.dv_adressen_sachsen_anhalt where _id=OLD.id;
 	end if;
+	delete from adressen.amtlich_verifizierung where adressen.amtlich_verifizierung.uuid=old.id;--new
 	return null;
 end;
 $$ language plpgsql;

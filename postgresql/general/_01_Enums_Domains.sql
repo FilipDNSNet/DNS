@@ -108,6 +108,7 @@ DROP TABLE IF EXISTS enum_adressen_verifizierungstyp;
 DROP TABLE IF EXISTS enum_adressen_anlysiert_durch;
 DROP TABLE IF EXISTS enum_adressen_foerder_status;
 
+Drop TABLe if exists enum_verifizierungsstatus;
 
 
 /*###	Domains	###################################################################################################################################*/
@@ -405,3 +406,9 @@ CREATE TABLE enum_adressen_foerder_status (val TEXT PRIMARY KEY);
 	INSERT INTO enum_adressen_foerder_status VALUES('Weisse Flecken');
 	INSERT INTO enum_adressen_foerder_status VALUES('Graue Flecken');
 	INSERT INTO enum_adressen_foerder_status VALUES('Schwarze Felcken');
+
+
+create table enum_verifizierungsstatus (val TEXT PRIMARY KEY);
+	INSERT INTO enum_verifizierungsstatus VALUES('Anfrage erforderlich');
+	INSERT INTO enum_verifizierungsstatus VALUES('Antwort ausstehend');
+	INSERT INTO enum_verifizierungsstatus VALUES('Amtlich verifiziert');

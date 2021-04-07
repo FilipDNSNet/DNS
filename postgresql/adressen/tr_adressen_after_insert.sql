@@ -6,7 +6,7 @@
 --	schema:		public                                                                                                                                            --  
 --	typ:		Trigger                                                                                                                                           --     
 --	cr.date:	04.01.2021                                                                                                                                        --  
---	ed.date:	09.02.2021                                                                                                                                        --  
+--	ed.date:	06.04.2021                                                                                                                                        --  
 --	impressionable_tables:                                                                                                                                        --
 --				adressen.dv_adressen_berlin                                                                                                                       --
 --				adressen.dv_adressen_brandenburg                                                                                                                  --
@@ -76,6 +76,11 @@ BEGIN
 					, case when lower(new.adresse_checked)=lower('Ja') then True else false end
 					, case when lower(new.ne_checked)=lower('Ja') then True else false end
 					, new.geom);
+	
+	if new.verifizierungstyp='unsicher' and lower(new.alkis_id) like 'temp%' then
+		insert into adressen.amtlich_verifizierung(uuid, vid, alkis_id,insert_datum, status) values (new.id, new.vid, new.alkis_id, new.aufnahmedatum, 'Anfrage erforderlich');
+	end if;
+	
 	RETURN NEW;
 END;
 $$ LANGUAGE PLPGSQL;

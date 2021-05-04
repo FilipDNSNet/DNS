@@ -4,7 +4,7 @@ DNS-Net Datamodel-A for Geodatamanagement and palning.
 prerequisites:
 	- 00_Public_Tables_and_Values.sql
 
-Version 10-11-2020
+Version 20-04-2021
 */
 /* List of ENUMs
 	enum_epsg                      
@@ -110,6 +110,7 @@ DROP TABLE IF EXISTS enum_adressen_foerder_status;
 
 Drop TABLe if exists enum_verifizierungsstatus;
 
+DROP table if exists enum_object_types;
 
 /*###	Domains	###################################################################################################################################*/
 
@@ -412,3 +413,17 @@ create table enum_verifizierungsstatus (val TEXT PRIMARY KEY);
 	INSERT INTO enum_verifizierungsstatus VALUES('Anfrage erforderlich');
 	INSERT INTO enum_verifizierungsstatus VALUES('Antwort ausstehend');
 	INSERT INTO enum_verifizierungsstatus VALUES('Amtlich verifiziert');
+	
+create table enum_object_types (ky varchar(2) primary key , val text);
+	Insert into enum_object_types(ky, val) values('kn', 'knoten');
+	Insert into enum_object_types(ky, val) values('ab', 'abschlusspunkte');
+	Insert into enum_object_types(ky, val) values('mo', 'connection_module');
+	Insert into enum_object_types(ky, val) values('un', 'connection_unit');
+	Insert into enum_object_types(ky, val) values('el', 'connection_element');
+	Insert into enum_object_types(ky, val) values('ka', 'kabel');
+	Insert into enum_object_types(ky, val) values('fa', 'faser');
+	Insert into enum_object_types(ky, val) values('ro', 'rohr');
+	Insert into enum_object_types(ky, val) values('mi', 'microduct');
+	Insert into enum_object_types(ky, val) values('tr', 'trasse');
+	Insert into enum_object_types(ky, val) values('sc', 'schutzrohr');
+	Insert into enum_object_types(ky, val) values('ot', 'other');	

@@ -150,6 +150,10 @@ alter table temp.b2b add column ky text;
 alter table temp.b2b add column ky_ort text;
 alter table temp.b2b add column ky_ortsteil text;
 alter table temp.b2b add column ky_ohne_plz text;
+create index inx_temp_b2b_ky on temp.b2b(ky);
+create index inx_temp_b2b_ky_ort on temp.b2b(ky_ort);
+create index inx_temp_b2b_ky_ortsteil on temp.b2b(ky_ortsteil);
+create index inx_temp_b2b_ky_ohne_plz on temp.b2b(ky_ohne_plz);
 Update temp.b2b set ky = dns_adress_match_key_generator( plz ,strasse , hausnummer,  '' , '') ;
 Update temp.b2b set ky_ort = dns_adress_match_key_generator( plz ,strasse , hausnummer,  '' , ort) ;
 Update temp.b2b set ky_ortsteil = dns_adress_match_key_generator( plz ,strasse , hausnummer,  '' , ortsteil) ;
@@ -203,15 +207,26 @@ select * from temp.b2b where uuid is null; --480 not matched
 
 
 
+update temp.b2b set uuid= sel.id , geom_status='Sicher' from (
+	select oid,adr.id from temp.b2b join temp.adr adr on replace(adr.ky_ort,'ß', 'ss')=replace(temp.b2b.ky_ort,'ß', 'ss') --3703
+	)sel where temp.b2b.oid=sel.oid and temp.b2b.uuid is null;
 
 
 
+----- Manuel checked for cnt=2   => ort is Bernau
+
+update temp.b2b set uuid=sel2.id, geom_status='Sicher_2' from (
+	select oid,adr.id from temp.b2b join temp.adr adr on adr.ky=temp.b2b.ky where oid in (
+			select oid  from (
+				select oid , count(oid) cnt from (
+					select oid,adr.id from temp.b2b join temp.adr adr on adr.ky=temp.b2b.ky 			where b2b.uuid is null
+					) sel group by oid order by cnt desc
+			) sel  where cnt =2
+		) and id in											 (select id from adressen.adressen where ort like 'Bernau%')		
+	) sel2 where uuid is null and sel2.oid=temp.b2b.oid;
 
 
-
-
-
-
+select * from temp.b2b where uuid is null; --459 not matched
 
 
 
@@ -251,7 +266,7 @@ create table dns_dienste.b2b_selfservice(
 	entscheider_1_funktionsname	text,
 	uuid	uuid,
 	geom_status text,
-	geom geometry (point, 4326)
+	geom geometry (point, 4326),
 	
 	
 	constraint pk_dns_dienste_b2b_selfservice primary key (id)
@@ -264,7 +279,7 @@ create index inx_dns_dienste_b2bselfservice_plz on dns_dienste.b2b_selfservice(p
 create index inx_dns_dienste_b2bselfservice_adress_hausnummer on dns_dienste.b2b_selfservice(hausnummer);
 create index inx_dns_dienste_b2bselfservice_geom on dns_dienste.b2b_selfservice using GIST(geom);
 
-Alter table dns_dienste.b2b_selfservice add constraint fk_dns_dienste_b2b_selfservice_adresse_id foreign key (adresse_id) references adressen.adressen(id);
+Alter table dns_dienste.b2b_selfservice add constraint fk_dns_dienste_b2b_selfservice_uuid foreign key (uuid) references adressen.adressen(id);	
 
 
 

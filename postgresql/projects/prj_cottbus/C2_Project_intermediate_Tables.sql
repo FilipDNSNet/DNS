@@ -9,6 +9,10 @@ DNS GIS-Group
 /* Drop if esixts #############################################################################################*/
 
 
+
+--      #todo : faser_nr and faser_farbe
+
+
 DROP TABLE IF EXISTS comsof.linear_object cascade;
 DROP TABLE IF EXISTS comsof.strecke_line cascade;
 DROP TABLE IF EXISTS comsof.strecke cascade;

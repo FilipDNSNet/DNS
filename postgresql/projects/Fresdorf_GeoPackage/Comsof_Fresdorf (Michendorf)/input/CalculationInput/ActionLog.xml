@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ActionLog>
+  <ActionLogEntry timestamp="2020/12/05 10:29:23" action="/initWorkspace" tooltip="Initialises a new workspace." icon="toolbox.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:30:33" action="/streetDoubler" tooltip="Create street edges from center lines." icon="doubler.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:30:36" action="/createBuildingTrenches" tooltip="Create the suggested building to street trenches." icon="drop.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:30:38" action="/createCrossings" tooltip="Generate crossings for every building." icon="crossing.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:30:39" action="/processInput" tooltip="Read in the shape files of a new area, preparing them for use in calculations." icon="process_area.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:30:45" action="/batch" tooltip="Run a number of commands in succession." icon="batch_area.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:44:56" action="/configure" tooltip="Open the dialog where you can configure parameters." icon="cog.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:45:36" action="/processInput" tooltip="Read in the shape files of a new area, preparing them for use in calculations." icon="process_area.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:47:02" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:50:23" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:53:36" action="/configure" tooltip="Open the dialog where you can configure parameters." icon="cog.png"/>
+  <ActionLogEntry timestamp="2020/12/05 10:55:06" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+  <ActionLogEntry timestamp="2020/12/08 09:58:34" action="/configure" tooltip="Open the dialog where you can configure parameters." icon="cog.png"/>
+  <ActionLogEntry timestamp="2020/12/08 10:00:56" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+  <ActionLogEntry timestamp="2020/12/08 12:30:58" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+  <ActionLogEntry timestamp="2020/12/08 13:11:29" action="/configure" tooltip="Open the dialog where you can configure parameters." icon="cog.png"/>
+  <ActionLogEntry timestamp="2020/12/08 13:12:24" action="/processInput" tooltip="Read in the shape files of a new area, preparing them for use in calculations." icon="process_area.png"/>
+  <ActionLogEntry timestamp="2020/12/08 13:17:43" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+  <ActionLogEntry timestamp="2020/12/08 16:57:51" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+  <ActionLogEntry timestamp="2020/12/08 17:54:16" action="/configure" tooltip="Open the dialog where you can configure parameters." icon="cog.png"/>
+  <ActionLogEntry timestamp="2020/12/08 17:58:29" action="/calculate" tooltip="Calculate the network and copy the results (clusters and aggregation nodes) back to the CalculationInput folder." icon="fiberplanit.png"/>
+</ActionLog>

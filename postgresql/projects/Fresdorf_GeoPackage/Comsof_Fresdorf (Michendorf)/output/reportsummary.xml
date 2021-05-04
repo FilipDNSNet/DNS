@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ReportSummary>
+  <configName>DNS Regeln PON Antennenschulze_VK Cross moderat</configName>
+  <areaName>Michendorf_Fresdorf</areaName>
+  <fileNameBOM>BOM.xlsx</fileNameBOM>
+  <version>2019.4.2.107 - SA_DESIGNER</version>
+  <currency>EUR</currency>
+  <areaLicense>C:\Users\Comsof\AppData\Local\Comsof\Designer\Area licenses\46622-Michendorf1600335116469.lic</areaLicense>
+  <expectedNumberOfPON>144</expectedNumberOfPON>
+  <expectedNumberOfP2P>0</expectedNumberOfP2P>
+  <expectedNumberOfLivingUnits>144</expectedNumberOfLivingUnits>
+  <numberOfHomesPassed>144</numberOfHomesPassed>
+  <numberOfHomesActivated>144</numberOfHomesActivated>
+  <numberOfAggregatePoints>0</numberOfAggregatePoints>
+  <costPerHomePassed>1537.5877525691164</costPerHomePassed>
+  <costPerHomeActivated>458.31666667681407</costPerHomeActivated>
+  <deploymentCost>221412.63636995276</deploymentCost>
+  <activationCost>65997.60000146122</activationCost>
+  <totalCost>287410.236371414</totalCost>
+  <ponMonthlyRevenue>0.0</ponMonthlyRevenue>
+  <p2pMonthlyRevenue>0.0</p2pMonthlyRevenue>
+  <totalMonthlyRevenue>0.0</totalMonthlyRevenue>
+  <expectedTotalRevenues>0.0</expectedTotalRevenues>
+  <configIdentifier>634292631</configIdentifier>
+  <areaIdentifier>462979094</areaIdentifier>
+  <date>2020-12-08 16:55:18.513 UTC</date>
+  <calculationTimeInMs>5145</calculationTimeInMs>
+  <calculationTime>5 sec</calculationTime>
+  <postCalculationTimeInMs>48782</postCalculationTimeInMs>
+  <identifier>629913613</identifier>
+</ReportSummary>

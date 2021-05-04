@@ -1,0 +1,1321 @@
+Cad/Floater
+DB_Manager/lastDirSQLFile
+DB_Manager/lastUsedDir
+DB_Manager/mainWindow/geometry
+DB_Manager/mainWindow/windowState
+DB_Manager/queryHistory/GeoPackage
+DB_Manager/queryHistory/PostGIS
+GradientEditor/plotAlpha
+GradientEditor/plotHue
+GradientEditor/plotLightness
+GradientEditor/plotSaturation
+HistogramWidget/showMean
+HistogramWidget/showStdev
+LayoutDesigner/lastItemHeight
+LayoutDesigner/lastItemWidth
+LayoutDesigner/lastSizeUnit
+Map/highlight/buffer
+Map/highlight/color
+Map/highlight/colorAlpha
+Map/highlight/minWidth
+Map/identifyAutoFeatureForm
+Map/identifyMode
+Map/logCanvasRefreshEvent
+Map/scales
+Map/searchRadiusMM
+Oracle/connections/selected
+Plugin-DelimitedText/crs
+Plugin-DelimitedText/csv/crs
+Plugin-DelimitedText/csv/decimalPoint
+Plugin-DelimitedText/csv/delimiterRegexp
+Plugin-DelimitedText/csv/delimiterType
+Plugin-DelimitedText/csv/delimiters
+Plugin-DelimitedText/csv/detectTypes
+Plugin-DelimitedText/csv/encoding
+Plugin-DelimitedText/csv/escapeChars
+Plugin-DelimitedText/csv/geomColumnType
+Plugin-DelimitedText/csv/geometry
+Plugin-DelimitedText/csv/quoteChars
+Plugin-DelimitedText/csv/skipEmptyFields
+Plugin-DelimitedText/csv/spatialIndex
+Plugin-DelimitedText/csv/startFrom
+Plugin-DelimitedText/csv/subsetIndex
+Plugin-DelimitedText/csv/trimFields
+Plugin-DelimitedText/csv/useHeader
+Plugin-DelimitedText/csv/watchFile
+Plugin-DelimitedText/csv/xyDms
+Plugin-DelimitedText/decimalPoint
+Plugin-DelimitedText/delimiterRegexp
+Plugin-DelimitedText/delimiterType
+Plugin-DelimitedText/delimiters
+Plugin-DelimitedText/detectTypes
+Plugin-DelimitedText/encoding
+Plugin-DelimitedText/escapeChars
+Plugin-DelimitedText/file_filter
+Plugin-DelimitedText/geomColumnType
+Plugin-DelimitedText/geometry
+Plugin-DelimitedText/quoteChars
+Plugin-DelimitedText/skipEmptyFields
+Plugin-DelimitedText/spatialIndex
+Plugin-DelimitedText/startFrom
+Plugin-DelimitedText/subsetIndex
+Plugin-DelimitedText/text_path
+Plugin-DelimitedText/trimFields
+Plugin-DelimitedText/useHeader
+Plugin-DelimitedText/watchFile
+Plugin-DelimitedText/xyDms
+Plugin-OpenLayers/cloud_info_ts
+PluginReloader/notify
+PluginReloader/plugin
+PostgreSQL/connections/Local  a/allowGeometrylessTables
+PostgreSQL/connections/Local  a/authcfg
+PostgreSQL/connections/Local  a/database
+PostgreSQL/connections/Local  a/dontResolveType
+PostgreSQL/connections/Local  a/estimatedMetadata
+PostgreSQL/connections/Local  a/geometryColumnsOnly
+PostgreSQL/connections/Local  a/host
+PostgreSQL/connections/Local  a/password
+PostgreSQL/connections/Local  a/port
+PostgreSQL/connections/Local  a/projectsInDatabase
+PostgreSQL/connections/Local  a/publicOnly
+PostgreSQL/connections/Local  a/savePassword
+PostgreSQL/connections/Local  a/saveUsername
+PostgreSQL/connections/Local  a/service
+PostgreSQL/connections/Local  a/sslmode
+PostgreSQL/connections/Local  a/username
+PostgreSQL/connections/Local bb_alkis/allowGeometrylessTables
+PostgreSQL/connections/Local bb_alkis/authcfg
+PostgreSQL/connections/Local bb_alkis/database
+PostgreSQL/connections/Local bb_alkis/dontResolveType
+PostgreSQL/connections/Local bb_alkis/estimatedMetadata
+PostgreSQL/connections/Local bb_alkis/geometryColumnsOnly
+PostgreSQL/connections/Local bb_alkis/host
+PostgreSQL/connections/Local bb_alkis/password
+PostgreSQL/connections/Local bb_alkis/port
+PostgreSQL/connections/Local bb_alkis/projectsInDatabase
+PostgreSQL/connections/Local bb_alkis/publicOnly
+PostgreSQL/connections/Local bb_alkis/savePassword
+PostgreSQL/connections/Local bb_alkis/saveUsername
+PostgreSQL/connections/Local bb_alkis/service
+PostgreSQL/connections/Local bb_alkis/sslmode
+PostgreSQL/connections/Local bb_alkis/username
+PostgreSQL/connections/Local dns_net_geodb/allowGeometrylessTables
+PostgreSQL/connections/Local dns_net_geodb/authcfg
+PostgreSQL/connections/Local dns_net_geodb/database
+PostgreSQL/connections/Local dns_net_geodb/dontResolveType
+PostgreSQL/connections/Local dns_net_geodb/estimatedMetadata
+PostgreSQL/connections/Local dns_net_geodb/geometryColumnsOnly
+PostgreSQL/connections/Local dns_net_geodb/host
+PostgreSQL/connections/Local dns_net_geodb/password
+PostgreSQL/connections/Local dns_net_geodb/port
+PostgreSQL/connections/Local dns_net_geodb/projectsInDatabase
+PostgreSQL/connections/Local dns_net_geodb/publicOnly
+PostgreSQL/connections/Local dns_net_geodb/savePassword
+PostgreSQL/connections/Local dns_net_geodb/saveUsername
+PostgreSQL/connections/Local dns_net_geodb/service
+PostgreSQL/connections/Local dns_net_geodb/sslmode
+PostgreSQL/connections/Local dns_net_geodb/username
+PostgreSQL/connections/Main  Adressen/allowGeometrylessTables
+PostgreSQL/connections/Main  Adressen/authcfg
+PostgreSQL/connections/Main  Adressen/database
+PostgreSQL/connections/Main  Adressen/dontResolveType
+PostgreSQL/connections/Main  Adressen/estimatedMetadata
+PostgreSQL/connections/Main  Adressen/geometryColumnsOnly
+PostgreSQL/connections/Main  Adressen/host
+PostgreSQL/connections/Main  Adressen/password
+PostgreSQL/connections/Main  Adressen/port
+PostgreSQL/connections/Main  Adressen/projectsInDatabase
+PostgreSQL/connections/Main  Adressen/publicOnly
+PostgreSQL/connections/Main  Adressen/savePassword
+PostgreSQL/connections/Main  Adressen/saveUsername
+PostgreSQL/connections/Main  Adressen/service
+PostgreSQL/connections/Main  Adressen/sslmode
+PostgreSQL/connections/Main  Adressen/username
+PostgreSQL/connections/Main  Leitungsauskunft/allowGeometrylessTables
+PostgreSQL/connections/Main  Leitungsauskunft/authcfg
+PostgreSQL/connections/Main  Leitungsauskunft/database
+PostgreSQL/connections/Main  Leitungsauskunft/dontResolveType
+PostgreSQL/connections/Main  Leitungsauskunft/estimatedMetadata
+PostgreSQL/connections/Main  Leitungsauskunft/geometryColumnsOnly
+PostgreSQL/connections/Main  Leitungsauskunft/host
+PostgreSQL/connections/Main  Leitungsauskunft/password
+PostgreSQL/connections/Main  Leitungsauskunft/port
+PostgreSQL/connections/Main  Leitungsauskunft/projectsInDatabase
+PostgreSQL/connections/Main  Leitungsauskunft/publicOnly
+PostgreSQL/connections/Main  Leitungsauskunft/savePassword
+PostgreSQL/connections/Main  Leitungsauskunft/saveUsername
+PostgreSQL/connections/Main  Leitungsauskunft/service
+PostgreSQL/connections/Main  Leitungsauskunft/sslmode
+PostgreSQL/connections/Main  Leitungsauskunft/username
+PostgreSQL/connections/Main  bb_alkis/allowGeometrylessTables
+PostgreSQL/connections/Main  bb_alkis/authcfg
+PostgreSQL/connections/Main  bb_alkis/database
+PostgreSQL/connections/Main  bb_alkis/dontResolveType
+PostgreSQL/connections/Main  bb_alkis/estimatedMetadata
+PostgreSQL/connections/Main  bb_alkis/geometryColumnsOnly
+PostgreSQL/connections/Main  bb_alkis/host
+PostgreSQL/connections/Main  bb_alkis/password
+PostgreSQL/connections/Main  bb_alkis/port
+PostgreSQL/connections/Main  bb_alkis/projectsInDatabase
+PostgreSQL/connections/Main  bb_alkis/publicOnly
+PostgreSQL/connections/Main  bb_alkis/savePassword
+PostgreSQL/connections/Main  bb_alkis/saveUsername
+PostgreSQL/connections/Main  bb_alkis/service
+PostgreSQL/connections/Main  bb_alkis/sslmode
+PostgreSQL/connections/Main  bb_alkis/username
+PostgreSQL/connections/Main  bb_fttx_projekte/allowGeometrylessTables
+PostgreSQL/connections/Main  bb_fttx_projekte/authcfg
+PostgreSQL/connections/Main  bb_fttx_projekte/database
+PostgreSQL/connections/Main  bb_fttx_projekte/dontResolveType
+PostgreSQL/connections/Main  bb_fttx_projekte/estimatedMetadata
+PostgreSQL/connections/Main  bb_fttx_projekte/geometryColumnsOnly
+PostgreSQL/connections/Main  bb_fttx_projekte/host
+PostgreSQL/connections/Main  bb_fttx_projekte/password
+PostgreSQL/connections/Main  bb_fttx_projekte/port
+PostgreSQL/connections/Main  bb_fttx_projekte/projectsInDatabase
+PostgreSQL/connections/Main  bb_fttx_projekte/publicOnly
+PostgreSQL/connections/Main  bb_fttx_projekte/savePassword
+PostgreSQL/connections/Main  bb_fttx_projekte/saveUsername
+PostgreSQL/connections/Main  bb_fttx_projekte/service
+PostgreSQL/connections/Main  bb_fttx_projekte/sslmode
+PostgreSQL/connections/Main  bb_fttx_projekte/username
+PostgreSQL/connections/Main  comsof/allowGeometrylessTables
+PostgreSQL/connections/Main  comsof/authcfg
+PostgreSQL/connections/Main  comsof/database
+PostgreSQL/connections/Main  comsof/dontResolveType
+PostgreSQL/connections/Main  comsof/estimatedMetadata
+PostgreSQL/connections/Main  comsof/geometryColumnsOnly
+PostgreSQL/connections/Main  comsof/host
+PostgreSQL/connections/Main  comsof/password
+PostgreSQL/connections/Main  comsof/port
+PostgreSQL/connections/Main  comsof/projectsInDatabase
+PostgreSQL/connections/Main  comsof/publicOnly
+PostgreSQL/connections/Main  comsof/savePassword
+PostgreSQL/connections/Main  comsof/saveUsername
+PostgreSQL/connections/Main  comsof/service
+PostgreSQL/connections/Main  comsof/sslmode
+PostgreSQL/connections/Main  comsof/username
+PostgreSQL/connections/Main  test/allowGeometrylessTables
+PostgreSQL/connections/Main  test/authcfg
+PostgreSQL/connections/Main  test/database
+PostgreSQL/connections/Main  test/dontResolveType
+PostgreSQL/connections/Main  test/estimatedMetadata
+PostgreSQL/connections/Main  test/geometryColumnsOnly
+PostgreSQL/connections/Main  test/host
+PostgreSQL/connections/Main  test/password
+PostgreSQL/connections/Main  test/port
+PostgreSQL/connections/Main  test/projectsInDatabase
+PostgreSQL/connections/Main  test/publicOnly
+PostgreSQL/connections/Main  test/savePassword
+PostgreSQL/connections/Main  test/saveUsername
+PostgreSQL/connections/Main  test/service
+PostgreSQL/connections/Main  test/sslmode
+PostgreSQL/connections/Main  test/username
+PostgreSQL/connections/Main bb_gbd/allowGeometrylessTables
+PostgreSQL/connections/Main bb_gbd/authcfg
+PostgreSQL/connections/Main bb_gbd/database
+PostgreSQL/connections/Main bb_gbd/dontResolveType
+PostgreSQL/connections/Main bb_gbd/estimatedMetadata
+PostgreSQL/connections/Main bb_gbd/geometryColumnsOnly
+PostgreSQL/connections/Main bb_gbd/host
+PostgreSQL/connections/Main bb_gbd/password
+PostgreSQL/connections/Main bb_gbd/port
+PostgreSQL/connections/Main bb_gbd/projectsInDatabase
+PostgreSQL/connections/Main bb_gbd/publicOnly
+PostgreSQL/connections/Main bb_gbd/savePassword
+PostgreSQL/connections/Main bb_gbd/saveUsername
+PostgreSQL/connections/Main bb_gbd/service
+PostgreSQL/connections/Main bb_gbd/sslmode
+PostgreSQL/connections/Main bb_gbd/username
+PostgreSQL/connections/Main d_gbd/allowGeometrylessTables
+PostgreSQL/connections/Main d_gbd/authcfg
+PostgreSQL/connections/Main d_gbd/database
+PostgreSQL/connections/Main d_gbd/dontResolveType
+PostgreSQL/connections/Main d_gbd/estimatedMetadata
+PostgreSQL/connections/Main d_gbd/geometryColumnsOnly
+PostgreSQL/connections/Main d_gbd/host
+PostgreSQL/connections/Main d_gbd/password
+PostgreSQL/connections/Main d_gbd/port
+PostgreSQL/connections/Main d_gbd/projectsInDatabase
+PostgreSQL/connections/Main d_gbd/publicOnly
+PostgreSQL/connections/Main d_gbd/savePassword
+PostgreSQL/connections/Main d_gbd/saveUsername
+PostgreSQL/connections/Main d_gbd/service
+PostgreSQL/connections/Main d_gbd/sslmode
+PostgreSQL/connections/Main d_gbd/username
+PostgreSQL/connections/Main dns_net_geodb/allowGeometrylessTables
+PostgreSQL/connections/Main dns_net_geodb/authcfg
+PostgreSQL/connections/Main dns_net_geodb/database
+PostgreSQL/connections/Main dns_net_geodb/dontResolveType
+PostgreSQL/connections/Main dns_net_geodb/estimatedMetadata
+PostgreSQL/connections/Main dns_net_geodb/geometryColumnsOnly
+PostgreSQL/connections/Main dns_net_geodb/host
+PostgreSQL/connections/Main dns_net_geodb/password
+PostgreSQL/connections/Main dns_net_geodb/port
+PostgreSQL/connections/Main dns_net_geodb/projectsInDatabase
+PostgreSQL/connections/Main dns_net_geodb/publicOnly
+PostgreSQL/connections/Main dns_net_geodb/savePassword
+PostgreSQL/connections/Main dns_net_geodb/saveUsername
+PostgreSQL/connections/Main dns_net_geodb/service
+PostgreSQL/connections/Main dns_net_geodb/sslmode
+PostgreSQL/connections/Main dns_net_geodb/username
+PostgreSQL/connections/Main st_alkis/allowGeometrylessTables
+PostgreSQL/connections/Main st_alkis/authcfg
+PostgreSQL/connections/Main st_alkis/database
+PostgreSQL/connections/Main st_alkis/dontResolveType
+PostgreSQL/connections/Main st_alkis/estimatedMetadata
+PostgreSQL/connections/Main st_alkis/geometryColumnsOnly
+PostgreSQL/connections/Main st_alkis/host
+PostgreSQL/connections/Main st_alkis/password
+PostgreSQL/connections/Main st_alkis/port
+PostgreSQL/connections/Main st_alkis/projectsInDatabase
+PostgreSQL/connections/Main st_alkis/publicOnly
+PostgreSQL/connections/Main st_alkis/savePassword
+PostgreSQL/connections/Main st_alkis/saveUsername
+PostgreSQL/connections/Main st_alkis/service
+PostgreSQL/connections/Main st_alkis/sslmode
+PostgreSQL/connections/Main st_alkis/username
+PostgreSQL/connections/Main_test_hamed/allowGeometrylessTables
+PostgreSQL/connections/Main_test_hamed/authcfg
+PostgreSQL/connections/Main_test_hamed/database
+PostgreSQL/connections/Main_test_hamed/dontResolveType
+PostgreSQL/connections/Main_test_hamed/estimatedMetadata
+PostgreSQL/connections/Main_test_hamed/geometryColumnsOnly
+PostgreSQL/connections/Main_test_hamed/host
+PostgreSQL/connections/Main_test_hamed/password
+PostgreSQL/connections/Main_test_hamed/port
+PostgreSQL/connections/Main_test_hamed/projectsInDatabase
+PostgreSQL/connections/Main_test_hamed/publicOnly
+PostgreSQL/connections/Main_test_hamed/savePassword
+PostgreSQL/connections/Main_test_hamed/saveUsername
+PostgreSQL/connections/Main_test_hamed/service
+PostgreSQL/connections/Main_test_hamed/sslmode
+PostgreSQL/connections/Main_test_hamed/username
+PostgreSQL/connections/Main_test_john/allowGeometrylessTables
+PostgreSQL/connections/Main_test_john/authcfg
+PostgreSQL/connections/Main_test_john/database
+PostgreSQL/connections/Main_test_john/dontResolveType
+PostgreSQL/connections/Main_test_john/estimatedMetadata
+PostgreSQL/connections/Main_test_john/geometryColumnsOnly
+PostgreSQL/connections/Main_test_john/host
+PostgreSQL/connections/Main_test_john/password
+PostgreSQL/connections/Main_test_john/port
+PostgreSQL/connections/Main_test_john/projectsInDatabase
+PostgreSQL/connections/Main_test_john/publicOnly
+PostgreSQL/connections/Main_test_john/savePassword
+PostgreSQL/connections/Main_test_john/saveUsername
+PostgreSQL/connections/Main_test_john/service
+PostgreSQL/connections/Main_test_john/sslmode
+PostgreSQL/connections/Main_test_john/username
+PostgreSQL/connections/User_testing/allowGeometrylessTables
+PostgreSQL/connections/User_testing/authcfg
+PostgreSQL/connections/User_testing/database
+PostgreSQL/connections/User_testing/dontResolveType
+PostgreSQL/connections/User_testing/estimatedMetadata
+PostgreSQL/connections/User_testing/geometryColumnsOnly
+PostgreSQL/connections/User_testing/host
+PostgreSQL/connections/User_testing/password
+PostgreSQL/connections/User_testing/port
+PostgreSQL/connections/User_testing/projectsInDatabase
+PostgreSQL/connections/User_testing/publicOnly
+PostgreSQL/connections/User_testing/savePassword
+PostgreSQL/connections/User_testing/saveUsername
+PostgreSQL/connections/User_testing/service
+PostgreSQL/connections/User_testing/sslmode
+PostgreSQL/connections/User_testing/username
+PostgreSQL/connections/selected
+PostgreSQL/connections/test_TOPOLOGY/allowGeometrylessTables
+PostgreSQL/connections/test_TOPOLOGY/authcfg
+PostgreSQL/connections/test_TOPOLOGY/database
+PostgreSQL/connections/test_TOPOLOGY/dontResolveType
+PostgreSQL/connections/test_TOPOLOGY/estimatedMetadata
+PostgreSQL/connections/test_TOPOLOGY/geometryColumnsOnly
+PostgreSQL/connections/test_TOPOLOGY/host
+PostgreSQL/connections/test_TOPOLOGY/password
+PostgreSQL/connections/test_TOPOLOGY/port
+PostgreSQL/connections/test_TOPOLOGY/projectsInDatabase
+PostgreSQL/connections/test_TOPOLOGY/publicOnly
+PostgreSQL/connections/test_TOPOLOGY/savePassword
+PostgreSQL/connections/test_TOPOLOGY/saveUsername
+PostgreSQL/connections/test_TOPOLOGY/service
+PostgreSQL/connections/test_TOPOLOGY/sslmode
+PostgreSQL/connections/test_TOPOLOGY/username
+Processing/Configuration/ACTIVATE_GDAL
+Processing/Configuration/ACTIVATE_GRASS7
+Processing/Configuration/ACTIVATE_SAGA
+Processing/Configuration/DefaultOutputRasterLayerExt
+Processing/Configuration/DefaultOutputVectorLayerExt
+Processing/Configuration/FILTER_INVALID_GEOMETRIES
+Processing/Configuration/GRASS7_LOG_COMMANDS
+Processing/Configuration/GRASS7_LOG_CONSOLE
+Processing/Configuration/GRASS_HELP_PATH
+Processing/Configuration/GRASS_USE_REXTERNAL
+Processing/Configuration/GRASS_USE_VEXTERNAL
+Processing/Configuration/KEEP_DIALOG_OPEN
+Processing/Configuration/MAX_THREADS
+Processing/Configuration/MODELS_FOLDER
+Processing/Configuration/OTB_ACTIVATE
+Processing/Configuration/OTB_APP_FOLDER
+Processing/Configuration/OTB_FOLDER
+Processing/Configuration/OTB_GEOID_FILE
+Processing/Configuration/OTB_LOGGER_LEVEL
+Processing/Configuration/OTB_MAX_RAM_HINT
+Processing/Configuration/OTB_SRTM_FOLDER
+Processing/Configuration/OUTPUTS_FOLDER
+Processing/Configuration/POST_EXECUTION_SCRIPT
+Processing/Configuration/PREFER_FILENAME_AS_LAYER_NAME
+Processing/Configuration/PRE_EXECUTION_SCRIPT
+Processing/Configuration/RASTER_STYLE
+Processing/Configuration/SAGA_IMPORT_EXPORT_OPTIMIZATION
+Processing/Configuration/SAGA_LOG_COMMANDS
+Processing/Configuration/SAGA_LOG_CONSOLE
+Processing/Configuration/SCRIPTS_FOLDERS
+Processing/Configuration/SHOW_ALGORITHMS_KNOWN_ISSUES
+Processing/Configuration/SHOW_CRS_DEF
+Processing/Configuration/SHOW_PROVIDERS_TOOLTIP
+Processing/Configuration/TEMP_PATH
+Processing/Configuration/TEMP_PATH2
+Processing/Configuration/VECTOR_LINE_STYLE
+Processing/Configuration/VECTOR_POINT_STYLE
+Processing/Configuration/VECTOR_POLYGON_STYLE
+Processing/Configuration/WARN_UNMATCHING_CRS
+Processing/LastInputPath
+Processing/LastOutputPath
+Processing/LastRasterOutputExt
+Processing/LastVectorOutputExt
+Projections/layerDefaultCrs
+PythonPlugins/GdalTools
+PythonPlugins/MetaSearch
+PythonPlugins/Qgis2threejs
+PythonPlugins/QuickWKT
+PythonPlugins/SpreadsheetLayers
+PythonPlugins/db_manager
+PythonPlugins/dimensioning
+PythonPlugins/nominatim
+PythonPlugins/openlayers_plugin
+PythonPlugins/plugin_reloader
+PythonPlugins/processing
+PythonPlugins/quick_map_services
+PythonPlugins/vector2psql
+Qgis2threejs/wnd/geometry
+Qgis2threejs/wnd/state
+QgsCollapsibleGroupBox/QgsBookmarkEditorDialog/mExtentGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsDataSourceManagerDialog/fileFormatGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsDataSourceManagerDialog/geometryDefinitionGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsDataSourceManagerDialog/layerSettingsGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsDataSourceManagerDialog/recordOptionsGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsExpressionBuilderDialogBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsExpressionSelectionDialogBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsFieldCalculatorBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsGradientColorRampDialogBase/groupBox_2/collapsed
+QgsCollapsibleGroupBox/QgsGradientColorRampDialogBase/mPlotGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsJoinDialogBase/mEditableJoinLayer/collapsed
+QgsCollapsibleGroupBox/QgsJoinDialogBase/mUseCustomPrefix/collapsed
+QgsCollapsibleGroupBox/QgsJoinDialogBase/mUseJoinFieldsSubset/collapsed
+QgsCollapsibleGroupBox/QgsLayoutDesignerBase/groupBox_2/collapsed
+QgsCollapsibleGroupBox/QgsLayoutDesignerBase/groupBox_3/collapsed
+QgsCollapsibleGroupBox/QgsLayoutManagerBase/mTemplateGrpBox/collapsed
+QgsCollapsibleGroupBox/QgsMeasureBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsNewGeoPackageLayerDialogBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_11/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_18/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_19/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_2/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_23/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_24/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_27/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_28/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_29/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_3/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/groupBox_4/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/grpLocale/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/grpProjectProjection/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/grpProjectionBehavior/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/mCurrentVariablesGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/mDefaultDatumTransformGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/mEnvironmentGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsOptionsBase/mQSettingsGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsPluginManagerBase/ckbDeprecated/checked
+QgsCollapsibleGroupBox/QgsPluginManagerBase/ckbDeprecated/collapsed
+QgsCollapsibleGroupBox/QgsPluginManagerBase/ckbExperimental/checked
+QgsCollapsibleGroupBox/QgsPluginManagerBase/ckbExperimental/collapsed
+QgsCollapsibleGroupBox/QgsProcessingDialogBase/grpAdvanced/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/btnGrpMeasureEllipsoid/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/groupBox_2/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/groupBox_5/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/groupBox_7/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpOWSServiceCapabilities/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpProjectScales/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpWCSCapabilities/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpWFSCapabilities/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpWMSCapabilities/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpWMSExt/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpWMSList/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/grpWmtsCapabilities/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/mCoordinateDisplayGroup/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/mDatumTransformGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/mLayerRestrictionsGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/mOWSCheckerGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/mWMSInspire/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/mWMSPrintLayoutGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsProjectPropertiesBase/titleBox/collapsed
+QgsCollapsibleGroupBox/QgsQueryBuilderBase/groupBox4/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/chkUseScaleDependentRendering/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/gboxCustomTransparency/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/gboxNoDataValue/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/gboxNoDataValue_2/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mBandRenderingGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mColorRenderingGrpBox/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mMetaAttributionGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mMetaDescriptionGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mMetaLegendGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mMetaMetaUrlGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mResamplingGroupBox/checked
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mResamplingGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsRasterLayerPropertiesBase/mWMSPrintGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/QgsAttributeWidgetEditGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/groupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/groupBoxActionList/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/groupBox_2/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/groupBox_3/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/groupBox_4/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/groupBox_60/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/groupLayerRendering/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mFilterGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mGeometryGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mMetaAttributionGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mMetaDescriptionGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mMetaLegendGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mMetaMetaUrlGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mScaleVisibilityGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mShowInAttributeTable/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mSubsetGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/mWmsDimensionsGrpBx/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerPropertiesBase/spatialExtentSelector/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerSaveAsDialogBase/mAttributesSelection/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerSaveAsDialogBase/mDatasourceOptionsGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerSaveAsDialogBase/mExtentGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerSaveAsDialogBase/mGeometryGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerSaveAsDialogBase/mLayerOptionsGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVectorLayerSaveAsDialogBase/mOgrOptionsGroupBox/collapsed
+QgsCollapsibleGroupBox/QgsVirtualLayerSourceSelectBase/mEmbeddedlLayersGroup/collapsed
+QgsCollapsibleGroupBox/QgsVirtualLayerSourceSelectBase/mGeometryGroup/collapsed
+QgsCollapsibleGroupBox/mAdvLabelingDlg/groupBox_mPreview/collapsed
+QgsCollapsibleGroupBox/mAdvLabelingDlg/mGeometryGeneratorGroupBox/collapsed
+QgsCollapsibleGroupBox/mAdvLabelingDlg/mObstaclesGroupBox/collapsed
+QgsCollapsibleGroupBox/mAdvLabelingDlg/mPlacementDDGroupBox/collapsed
+QgsCollapsibleGroupBox/mAdvLabelingDlg/mPriorityGrpBx/collapsed
+QgsCollapsibleGroupBox/mAdvLabelingDlg/mRenderingFeaturesGrpBx/collapsed
+QgsCollapsibleGroupBox/mAdvLabelingDlg/mRenderingLabelGrpBx/collapsed
+QgsVariableEditor/Global/expanded
+QgsVariableEditor/Layout/expanded
+QgsVariableEditor/Project/expanded
+QgsVariableEditorTree/globalOptions/column0width
+QgsVariableEditorTree/mVariableEditor/column0width
+QgsVariableEditorTree/projectProperties/column0width
+Raster/cumulativeCutLower
+Raster/cumulativeCutUpper
+Raster/defaultBlueBand
+Raster/defaultContrastEnhancementAlgorithm/multiBandMultiByte
+Raster/defaultContrastEnhancementAlgorithm/multiBandSingleByte
+Raster/defaultContrastEnhancementAlgorithm/singleBand
+Raster/defaultContrastEnhancementLimits/multiBandMultiByte
+Raster/defaultContrastEnhancementLimits/multiBandSingleByte
+Raster/defaultContrastEnhancementLimits/singleBand
+Raster/defaultGreenBand
+Raster/defaultOversampling
+Raster/defaultPalette
+Raster/defaultRedBand
+Raster/defaultStandardDeviation
+Raster/defaultZoomedInResampling
+Raster/defaultZoomedOutResampling
+SpreadsheetLayers/directory
+UI/UITheme
+UI/defaultFeatureService
+UI/defaultMapService
+UI/defaultNewLayer
+UI/defaultVertexTool
+UI/encoding
+UI/geometry
+UI/lastComposerPictureDir
+UI/lastFileNameWidgetDir
+UI/lastProjectDir
+UI/lastVectorFileFilter
+UI/lastVectorFileFilterDir
+UI/lastVectorFormat
+UI/measureTool
+UI/paneldialog/Edit Rule
+UI/paneldialog/Regel bearbeiten
+UI/recentProjectionsAuthId
+UI/recentProjectionsProj4
+UI/recentProjectionsWkt
+UI/recentProjects/1/crs
+UI/recentProjects/1/path
+UI/recentProjects/1/pin
+UI/recentProjects/1/previewImage
+UI/recentProjects/1/title
+UI/recentProjects/10/crs
+UI/recentProjects/10/path
+UI/recentProjects/10/pin
+UI/recentProjects/10/previewImage
+UI/recentProjects/10/title
+UI/recentProjects/11/crs
+UI/recentProjects/11/path
+UI/recentProjects/11/pin
+UI/recentProjects/11/previewImage
+UI/recentProjects/11/title
+UI/recentProjects/12/crs
+UI/recentProjects/12/path
+UI/recentProjects/12/pin
+UI/recentProjects/12/previewImage
+UI/recentProjects/12/title
+UI/recentProjects/13/crs
+UI/recentProjects/13/path
+UI/recentProjects/13/pin
+UI/recentProjects/13/previewImage
+UI/recentProjects/13/title
+UI/recentProjects/14/crs
+UI/recentProjects/14/path
+UI/recentProjects/14/pin
+UI/recentProjects/14/previewImage
+UI/recentProjects/14/title
+UI/recentProjects/15/crs
+UI/recentProjects/15/path
+UI/recentProjects/15/pin
+UI/recentProjects/15/previewImage
+UI/recentProjects/15/title
+UI/recentProjects/16/crs
+UI/recentProjects/16/path
+UI/recentProjects/16/pin
+UI/recentProjects/16/previewImage
+UI/recentProjects/16/title
+UI/recentProjects/17/crs
+UI/recentProjects/17/path
+UI/recentProjects/17/pin
+UI/recentProjects/17/previewImage
+UI/recentProjects/17/title
+UI/recentProjects/18/crs
+UI/recentProjects/18/path
+UI/recentProjects/18/pin
+UI/recentProjects/18/previewImage
+UI/recentProjects/18/title
+UI/recentProjects/19/crs
+UI/recentProjects/19/path
+UI/recentProjects/19/pin
+UI/recentProjects/19/previewImage
+UI/recentProjects/19/title
+UI/recentProjects/2/crs
+UI/recentProjects/2/path
+UI/recentProjects/2/pin
+UI/recentProjects/2/previewImage
+UI/recentProjects/2/title
+UI/recentProjects/20/crs
+UI/recentProjects/20/path
+UI/recentProjects/20/pin
+UI/recentProjects/20/previewImage
+UI/recentProjects/20/title
+UI/recentProjects/3/crs
+UI/recentProjects/3/path
+UI/recentProjects/3/pin
+UI/recentProjects/3/previewImage
+UI/recentProjects/3/title
+UI/recentProjects/4/crs
+UI/recentProjects/4/path
+UI/recentProjects/4/pin
+UI/recentProjects/4/previewImage
+UI/recentProjects/4/title
+UI/recentProjects/5/crs
+UI/recentProjects/5/path
+UI/recentProjects/5/pin
+UI/recentProjects/5/previewImage
+UI/recentProjects/5/title
+UI/recentProjects/6/crs
+UI/recentProjects/6/path
+UI/recentProjects/6/pin
+UI/recentProjects/6/previewImage
+UI/recentProjects/6/title
+UI/recentProjects/7/crs
+UI/recentProjects/7/path
+UI/recentProjects/7/pin
+UI/recentProjects/7/previewImage
+UI/recentProjects/7/title
+UI/recentProjects/8/crs
+UI/recentProjects/8/path
+UI/recentProjects/8/pin
+UI/recentProjects/8/previewImage
+UI/recentProjects/8/title
+UI/recentProjects/9/crs
+UI/recentProjects/9/path
+UI/recentProjects/9/pin
+UI/recentProjects/9/previewImage
+UI/recentProjects/9/title
+UI/selectTool
+UI/selectionTool
+UI/showInstallFromZipWarning
+UI/state
+Windows/AttributeDialog/geometry
+Windows/BetterAttributeTable/geometry
+Windows/Bookmarks/headerstateV2
+Windows/ColorDialog/activeComponent
+Windows/ColorDialog/activeScheme
+Windows/ColorDialog/activeTab
+Windows/ColorDialog/customColor1
+Windows/ColorDialog/customColor10
+Windows/ColorDialog/customColor11
+Windows/ColorDialog/customColor12
+Windows/ColorDialog/customColor13
+Windows/ColorDialog/customColor14
+Windows/ColorDialog/customColor15
+Windows/ColorDialog/customColor16
+Windows/ColorDialog/customColor2
+Windows/ColorDialog/customColor3
+Windows/ColorDialog/customColor4
+Windows/ColorDialog/customColor5
+Windows/ColorDialog/customColor6
+Windows/ColorDialog/customColor7
+Windows/ColorDialog/customColor8
+Windows/ColorDialog/customColor9
+Windows/ColorDialog/sampleRadius
+Windows/Data Source Manager/geometry
+Windows/Data Source Manager/splitState
+Windows/Data Source Manager/tab
+Windows/DatumTransformDialog/columnWidths/0
+Windows/DatumTransformDialog/columnWidths/1
+Windows/DatumTransformDialog/hideDeprecated
+Windows/Db2SourceSelect/HoldDialogOpen
+Windows/Db2SourceSelect/columnWidths/0
+Windows/Db2SourceSelect/columnWidths/1
+Windows/Db2SourceSelect/columnWidths/2
+Windows/Db2SourceSelect/columnWidths/3
+Windows/Db2SourceSelect/columnWidths/4
+Windows/Db2SourceSelect/columnWidths/5
+Windows/Db2SourceSelect/columnWidths/6
+Windows/Db2SourceSelect/columnWidths/7
+Windows/Diagrams/OptionsSplitState
+Windows/Diagrams/Tab
+Windows/Identify/columnWidth
+Windows/Labeling/FontPreviewSplitState
+Windows/Labeling/OptionsSplitState
+Windows/Labeling/Tab
+Windows/MSSQLSourceSelect/HoldDialogOpen
+Windows/MSSQLSourceSelect/columnWidths/0
+Windows/MSSQLSourceSelect/columnWidths/1
+Windows/MSSQLSourceSelect/columnWidths/2
+Windows/MSSQLSourceSelect/columnWidths/3
+Windows/MSSQLSourceSelect/columnWidths/4
+Windows/MSSQLSourceSelect/columnWidths/5
+Windows/MSSQLSourceSelect/columnWidths/6
+Windows/MSSQLSourceSelect/columnWidths/7
+Windows/Measure/h
+Windows/Options/geometry
+Windows/Options/splitState
+Windows/Options/tab
+Windows/OracleSourceSelect/HoldDialogOpen
+Windows/OracleSourceSelect/columnWidths/0
+Windows/OracleSourceSelect/columnWidths/1
+Windows/OracleSourceSelect/columnWidths/2
+Windows/OracleSourceSelect/columnWidths/3
+Windows/OracleSourceSelect/columnWidths/4
+Windows/OracleSourceSelect/columnWidths/5
+Windows/OracleSourceSelect/columnWidths/6
+Windows/OracleSourceSelect/columnWidths/7
+Windows/PgSourceSelect/HoldDialogOpen
+Windows/PgSourceSelect/columnWidths/0
+Windows/PgSourceSelect/columnWidths/1
+Windows/PgSourceSelect/columnWidths/10
+Windows/PgSourceSelect/columnWidths/2
+Windows/PgSourceSelect/columnWidths/3
+Windows/PgSourceSelect/columnWidths/4
+Windows/PgSourceSelect/columnWidths/5
+Windows/PgSourceSelect/columnWidths/6
+Windows/PgSourceSelect/columnWidths/7
+Windows/PgSourceSelect/columnWidths/8
+Windows/PgSourceSelect/columnWidths/9
+Windows/PluginManager/geometry
+Windows/PluginManager/option
+Windows/PluginManager/secondSplitterState
+Windows/PluginManager/splitState
+Windows/PluginManager/tab
+Windows/ProjectProperties/geometry
+Windows/ProjectProperties/splitState
+Windows/ProjectProperties/tab
+Windows/QWidget/geometry
+Windows/QgsAttributeTypeDialog/geometry
+Windows/QgsBookmarkEditorDialog/geometry
+Windows/QgsBrowserPropertiesDialogBase/geometry
+Windows/QgsColorDialogBase/geometry
+Windows/QgsDataSourceSelectDialog/geometry
+Windows/QgsDatumTransformDialogBase/geometry
+Windows/QgsDelAttrDialogBase/geometry
+Windows/QgsDelimitedTextSourceSelectBase/geometry
+Windows/QgsExpressionBuilderDialogBase/geometry
+Windows/QgsExpressionBuilderWidget/editorsplitter
+Windows/QgsExpressionBuilderWidget/functionsplitter
+Windows/QgsExpressionBuilderWidget/splitter
+Windows/QgsExpressionSelectionDialogBase/geometry
+Windows/QgsFieldCalculatorBase/geometry
+Windows/QgsGenericProjectionSelectorBase/geometry
+Windows/QgsGradientColorRampDialogBase/geometry
+Windows/QgsLayoutAttributeSelectionDialogBase/geometry
+Windows/QgsLayoutManagerBase/geometry
+Windows/QgsLayoutNewItemPropertiesDialog/geometry
+Windows/QgsLayoutTableBackgroundDialog/geometry
+Windows/QgsMeasureBase/geometry
+Windows/QgsMessageViewer/geometry
+Windows/QgsNewAuxiliaryLayerDialogBase/geometry
+Windows/QgsNewGeoPackageLayerDialogBase/geometry
+Windows/QgsNewHttpConnectionBase/geometry
+Windows/QgsNewVectorLayerDialogBase/geometry
+Windows/QgsOgrSourceSelectBase/geometry
+Windows/QgsPdfExportOptionsDialog/geometry
+Windows/QgsPgNewConnectionBase/geometry
+Windows/QgsPluginInstallerFetchingDialogBase/geometry
+Windows/QgsProcessingDialogBase/geometry
+Windows/QgsProjectLayerGroupDialogBase/geometry
+Windows/QgsQueryBuilderBase/geometry
+Windows/QgsRendererPropsDialogBase/geometry
+Windows/QgsRendererRulePropsDialog/geometry
+Windows/QgsSelectByFormDialog/geometry
+Windows/QgsStyleManagerDialogBase/geometry
+Windows/QgsStyleSaveDialog/geometry
+Windows/QgsSublayersDialogBase/geometry
+Windows/QgsTextFormatDialog/geometry
+Windows/QgsVectorLayerLoadStyleDialog/geometry
+Windows/QgsVectorLayerSaveAsDialogBase/geometry
+Windows/QgsVectorLayerSaveStyleDialog/geometry
+Windows/QgsWFSSourceSelectBase/geometry
+Windows/QgsWMSSourceSelectBase/geometry
+Windows/QgsXyzConnectionDialog/geometry
+Windows/RasterLayerProperties/geometry
+Windows/RasterLayerProperties/splitState
+Windows/RasterLayerProperties/tab
+Windows/RuleBasedTree/sectionWidth/0
+Windows/RuleBasedTree/sectionWidth/1
+Windows/RuleBasedTree/sectionWidth/2
+Windows/RuleBasedTree/sectionWidth/3
+Windows/RuleBasedTree/sectionWidth/4
+Windows/SnappingWidget/geometry
+Windows/SourceSelectDialog/UseTitleLayerName
+Windows/SpatiaLiteSourceSelect/HoldDialogOpen
+Windows/StyleV2Manager/splitter
+Windows/SymbolSelectorDialog/geometry
+Windows/VectorLayerProperties/geometry
+Windows/VectorLayerProperties/splitState
+Windows/VectorLayerProperties/tab
+Windows/WFSSourceSelect/FeatureCurrentViewExtent
+Windows/WFSSourceSelect/HoldDialogOpen
+Windows/WFSSourceSelect/UseTitleLayerName
+Windows/mAttributeTable/geometry
+Windows/mTableView/geometry
+Windows/ogrSubLayers/headerColumnCount
+Windows/ogrSubLayers/headerState
+app/LayoutDesigner/geometry
+app/LayoutDesigner/state
+app/Windows/WelcomePage/SplitState
+app/Windows/WelcomePage/SplitState2
+app/lastLayoutExportDir
+app/plugin_installer/allowExperimental
+app/plugin_installer/checkOnStart
+app/plugin_installer/checkOnStartInterval
+app/plugin_installer/checkOnStartLastDate
+app/plugin_installer/lastZipDirectory
+app/plugin_installer/seen_plugins
+app/plugin_repositories/Offizielles QGIS-Erweiterungsrepositorium/url
+app/projections/defaultProjectCrs
+app/projections/newProjectCrsBehavior
+browser/expandedPaths
+browser/hiddenPaths
+browser/propertiesWidgetEnabled
+browser/propertiesWidgetHeight
+browser2/expandedPaths
+browser2/propertiesWidgetEnabled
+browser2/propertiesWidgetHeight
+cache/size
+colors/recent
+core/Layout/searchPathsForTemplates
+core/NewsFeed/httpsfeedqgisorg/24/content
+core/NewsFeed/httpsfeedqgisorg/24/imageUrl
+core/NewsFeed/httpsfeedqgisorg/24/link
+core/NewsFeed/httpsfeedqgisorg/24/sticky
+core/NewsFeed/httpsfeedqgisorg/24/title
+core/NewsFeed/httpsfeedqgisorg/26/content
+core/NewsFeed/httpsfeedqgisorg/26/expiry
+core/NewsFeed/httpsfeedqgisorg/26/imageUrl
+core/NewsFeed/httpsfeedqgisorg/26/link
+core/NewsFeed/httpsfeedqgisorg/26/sticky
+core/NewsFeed/httpsfeedqgisorg/26/title
+core/NewsFeed/httpsfeedqgisorg/27/content
+core/NewsFeed/httpsfeedqgisorg/27/imageUrl
+core/NewsFeed/httpsfeedqgisorg/27/link
+core/NewsFeed/httpsfeedqgisorg/27/sticky
+core/NewsFeed/httpsfeedqgisorg/27/title
+core/NewsFeed/httpsfeedqgisorg/28/content
+core/NewsFeed/httpsfeedqgisorg/28/expiry
+core/NewsFeed/httpsfeedqgisorg/28/imageUrl
+core/NewsFeed/httpsfeedqgisorg/28/link
+core/NewsFeed/httpsfeedqgisorg/28/sticky
+core/NewsFeed/httpsfeedqgisorg/28/title
+core/NewsFeed/httpsfeedqgisorg/29/content
+core/NewsFeed/httpsfeedqgisorg/29/imageUrl
+core/NewsFeed/httpsfeedqgisorg/29/link
+core/NewsFeed/httpsfeedqgisorg/29/sticky
+core/NewsFeed/httpsfeedqgisorg/29/title
+core/NewsFeed/httpsfeedqgisorg/30/content
+core/NewsFeed/httpsfeedqgisorg/30/expiry
+core/NewsFeed/httpsfeedqgisorg/30/imageUrl
+core/NewsFeed/httpsfeedqgisorg/30/link
+core/NewsFeed/httpsfeedqgisorg/30/sticky
+core/NewsFeed/httpsfeedqgisorg/30/title
+core/NewsFeed/httpsfeedqgisorg/31/content
+core/NewsFeed/httpsfeedqgisorg/31/imageUrl
+core/NewsFeed/httpsfeedqgisorg/31/link
+core/NewsFeed/httpsfeedqgisorg/31/sticky
+core/NewsFeed/httpsfeedqgisorg/31/title
+core/NewsFeed/httpsfeedqgisorg/32/content
+core/NewsFeed/httpsfeedqgisorg/32/imageUrl
+core/NewsFeed/httpsfeedqgisorg/32/link
+core/NewsFeed/httpsfeedqgisorg/32/sticky
+core/NewsFeed/httpsfeedqgisorg/32/title
+core/NewsFeed/httpsfeedqgisorg/35/content
+core/NewsFeed/httpsfeedqgisorg/35/expiry
+core/NewsFeed/httpsfeedqgisorg/35/imageUrl
+core/NewsFeed/httpsfeedqgisorg/35/link
+core/NewsFeed/httpsfeedqgisorg/35/sticky
+core/NewsFeed/httpsfeedqgisorg/35/title
+core/NewsFeed/httpsfeedqgisorg/36/content
+core/NewsFeed/httpsfeedqgisorg/36/imageUrl
+core/NewsFeed/httpsfeedqgisorg/36/link
+core/NewsFeed/httpsfeedqgisorg/36/sticky
+core/NewsFeed/httpsfeedqgisorg/36/title
+core/NewsFeed/httpsfeedqgisorg/disabled
+core/NewsFeed/httpsfeedqgisorg/lastFetchTime
+core/OpenClDefaultDevice
+core/OpenClEnabled
+defaults/bearing_format/decimal_separator
+defaults/bearing_format/decimals
+defaults/bearing_format/direction_format
+defaults/bearing_format/rounding_type
+defaults/bearing_format/show_plus
+defaults/bearing_format/show_thousand_separator
+defaults/bearing_format/show_trailing_zeros
+defaults/bearing_format/thousand_separator
+expressions/recent/fieldcalc
+expressions/recent/generic
+expressions/recent/selection
+fonts/recent
+gps/acquisitionInterval
+gps/applyLeapSeconds
+gps/autoAddVertices
+gps/autoCommit
+gps/bearingLineSymbol
+gps/distanceThreshold
+gps/gpsdDevice
+gps/gpsdHost
+gps/gpsdPort
+gps/lastPort
+gps/mapExtentMultiplier
+gps/markerSize
+gps/panMode
+gps/portMode
+gps/rotateMap
+gps/rotateMapInterval
+gps/showBearingLine
+gps/showMarker
+gps/timestampFormat
+gps/timestampTimeZone
+gps/trackColor
+gps/trackWidth
+gui/LayoutDesigner/defaultSnapGridOffsetX
+gui/LayoutDesigner/defaultSnapGridOffsetY
+gui/LayoutDesigner/defaultSnapGridResolution
+gui/LayoutDesigner/defaultSnapTolerancePixels
+gui/LayoutDesigner/gridAlpha
+gui/LayoutDesigner/gridBlue
+gui/LayoutDesigner/gridGreen
+gui/LayoutDesigner/gridRed
+gui/LayoutDesigner/gridStyle
+gui/UI/symbolsList/lastIconView
+gui/UI/symbolsList/treeState
+gui/Windows/StyleV2Manager/lastIconView
+gui/datasourceSelectLastSelectedItem
+gui/processing/recentAlgorithms
+locale/globalLocale
+locale/overrideFlag
+locale/showGroupSeparator
+locale/userLocale
+migration/fileVersion
+migration/firstRunVersionFlag
+migration/settings
+nominatim/defaultArea
+nominatim/dlgPosX
+nominatim/dlgPosY
+nominatim/gnOptions
+nominatim/gnUsername
+nominatim/lastSearch
+nominatim/limitSearchToExtent
+nominatim/localiseOnStartup
+nominatim/singleLayer
+plugins/coordinatecaptureplugin
+plugins/searchPathsForPlugins
+providers/ogr/GPKG/connections/ALKIS_Berlin.gpkg/path
+providers/ogr/GPKG/connections/ALKIS_Brandenburg.gpkg/path
+providers/ogr/GPKG/connections/Test_geopackage/path
+providers/ogr/GPKG/connections/adressen_bb.gpkg/path
+providers/ogr/GPKG/connections/geopackage_qgis.gpkg/path
+providers/ogr/GPKG/connections/nuthetal_tremsdorf.gpkg/path
+providers/ogr/GPKG/connections/test.gpkg/path
+providers/ogr/GPKG/connections/v3.gpkg/path
+providers/ogr/GPKGSourceSelect/HoldDialogOpen
+proxy/authcfg
+proxy/noProxyUrls
+proxy/proxyEnabled
+proxy/proxyHost
+proxy/proxyPassword
+proxy/proxyPort
+proxy/proxyType
+proxy/proxyUser
+pythonConsole/splitterConsole
+pythonConsole/splitterEditor
+pythonConsole/splitterObj
+qgis/WFS/Adressen_BB/authcfg
+qgis/WFS/Adressen_BB/password
+qgis/WFS/Adressen_BB/username
+qgis/WMS/Brandenburg ALKIS/authcfg
+qgis/WMS/Brandenburg ALKIS/password
+qgis/WMS/Brandenburg ALKIS/username
+qgis/WMSSearchUrl
+qgis/askToDeleteLayers
+qgis/askToSaveProjectChanges
+qgis/attributeTable/splitterState
+qgis/attributeTableBehavior
+qgis/attributeTableLastView
+qgis/attributeTableRowCache
+qgis/attributeTableView
+qgis/compileExpressions
+qgis/connections-wcs/selected
+qgis/connections-wfs/Adressen_BB/ignoreAxisOrientation
+qgis/connections-wfs/Adressen_BB/invertAxisOrientation
+qgis/connections-wfs/Adressen_BB/maxnumfeatures
+qgis/connections-wfs/Adressen_BB/pagesize
+qgis/connections-wfs/Adressen_BB/pagingenabled
+qgis/connections-wfs/Adressen_BB/url
+qgis/connections-wfs/Adressen_BB/version
+qgis/connections-wfs/selected
+qgis/connections-wms/ Brandenburg ATKIS/dpiMode
+qgis/connections-wms/ Brandenburg ATKIS/ignoreAxisOrientation
+qgis/connections-wms/ Brandenburg ATKIS/ignoreGetFeatureInfoURI
+qgis/connections-wms/ Brandenburg ATKIS/ignoreGetMapURI
+qgis/connections-wms/ Brandenburg ATKIS/invertAxisOrientation
+qgis/connections-wms/ Brandenburg ATKIS/referer
+qgis/connections-wms/ Brandenburg ATKIS/smoothPixmapTransform
+qgis/connections-wms/ Brandenburg ATKIS/url
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/dpiMode
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/ignoreGetMapURI
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/invertAxisOrientation
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/referer
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/smoothPixmapTransform
+qgis/connections-wms/Brandenburg ALKIS Adresspunkte/url
+qgis/connections-wms/Brandenburg ALKIS/dpiMode
+qgis/connections-wms/Brandenburg ALKIS/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg ALKIS/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg ALKIS/ignoreGetMapURI
+qgis/connections-wms/Brandenburg ALKIS/ignoreReportedLayerExtents
+qgis/connections-wms/Brandenburg ALKIS/invertAxisOrientation
+qgis/connections-wms/Brandenburg ALKIS/referer
+qgis/connections-wms/Brandenburg ALKIS/smoothPixmapTransform
+qgis/connections-wms/Brandenburg ALKIS/url
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/dpiMode
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/ignoreGetMapURI
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/invertAxisOrientation
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/referer
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/smoothPixmapTransform
+qgis/connections-wms/Brandenburg ATKIS Geographische Bezeichnungen/url
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/dpiMode
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/ignoreGetMapURI
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/invertAxisOrientation
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/referer
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/smoothPixmapTransform
+qgis/connections-wms/Brandenburg Bebauungsplan Schöneiche Gewerbegebiet/url
+qgis/connections-wms/Brandenburg Eichwalde TK10/dpiMode
+qgis/connections-wms/Brandenburg Eichwalde TK10/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg Eichwalde TK10/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg Eichwalde TK10/ignoreGetMapURI
+qgis/connections-wms/Brandenburg Eichwalde TK10/invertAxisOrientation
+qgis/connections-wms/Brandenburg Eichwalde TK10/referer
+qgis/connections-wms/Brandenburg Eichwalde TK10/smoothPixmapTransform
+qgis/connections-wms/Brandenburg Eichwalde TK10/url
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/dpiMode
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/ignoreGetMapURI
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/invertAxisOrientation
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/referer
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/smoothPixmapTransform
+qgis/connections-wms/Brandenburg FLP Schöneiche b Berlin/url
+qgis/connections-wms/Brandenburg Fredersdorf FLP/dpiMode
+qgis/connections-wms/Brandenburg Fredersdorf FLP/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg Fredersdorf FLP/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg Fredersdorf FLP/ignoreGetMapURI
+qgis/connections-wms/Brandenburg Fredersdorf FLP/invertAxisOrientation
+qgis/connections-wms/Brandenburg Fredersdorf FLP/referer
+qgis/connections-wms/Brandenburg Fredersdorf FLP/smoothPixmapTransform
+qgis/connections-wms/Brandenburg Fredersdorf FLP/url
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/dpiMode
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/ignoreGetMapURI
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/invertAxisOrientation
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/referer
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/smoothPixmapTransform
+qgis/connections-wms/Brandenburg u Berlin DOP20 WMTS/url
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/dpiMode
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/ignoreGetMapURI
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/invertAxisOrientation
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/referer
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/smoothPixmapTransform
+qgis/connections-wms/Brandenburg, Biesenthal, FLP 3. Änderung/url
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/dpiMode
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/ignoreGetMapURI
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/invertAxisOrientation
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/referer
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/smoothPixmapTransform
+qgis/connections-wms/Brandenburg_Eichwalde DOP20/url
+qgis/connections-wms/Brandenburg_Einkommen/dpiMode
+qgis/connections-wms/Brandenburg_Einkommen/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg_Einkommen/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg_Einkommen/ignoreGetMapURI
+qgis/connections-wms/Brandenburg_Einkommen/invertAxisOrientation
+qgis/connections-wms/Brandenburg_Einkommen/referer
+qgis/connections-wms/Brandenburg_Einkommen/smoothPixmapTransform
+qgis/connections-wms/Brandenburg_Einkommen/url
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/dpiMode
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/ignoreAxisOrientation
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/ignoreGetFeatureInfoURI
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/ignoreGetMapURI
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/invertAxisOrientation
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/referer
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/smoothPixmapTransform
+qgis/connections-wms/Brandenburg_Schöneiche_Ortsplan/url
+qgis/connections-wms/Sachsen-Anhalt ALKIS/dpiMode
+qgis/connections-wms/Sachsen-Anhalt ALKIS/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt ALKIS/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt ALKIS/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt ALKIS/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt ALKIS/referer
+qgis/connections-wms/Sachsen-Anhalt ALKIS/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt ALKIS/url
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/dpiMode
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/referer
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt ATKIS DLM50/url
+qgis/connections-wms/Sachsen-Anhalt DOP100/dpiMode
+qgis/connections-wms/Sachsen-Anhalt DOP100/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt DOP100/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt DOP100/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt DOP100/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt DOP100/referer
+qgis/connections-wms/Sachsen-Anhalt DOP100/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt DOP100/url
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /dpiMode
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /referer
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt Gewässernetz /url
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/dpiMode
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/referer
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt Hauskoordinaten/url
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/dpiMode
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/referer
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt Strassennetz/url
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/dpiMode
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/referer
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt Topographische Karte 1:100.000/url
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/dpiMode
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/referer
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt Verkehersnetz BasisDLM/url
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/dpiMode
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/referer
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt geogr. Bezeichnungen ALKIS/url
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/dpiMode
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/ignoreAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/ignoreGetFeatureInfoURI
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/ignoreGetMapURI
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/invertAxisOrientation
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/referer
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/smoothPixmapTransform
+qgis/connections-wms/Sachsen-Anhalt geographische Bezeichnungen DLM50/url
+qgis/connections-wms/Schöneiche FLP/dpiMode
+qgis/connections-wms/Schöneiche FLP/ignoreAxisOrientation
+qgis/connections-wms/Schöneiche FLP/ignoreGetFeatureInfoURI
+qgis/connections-wms/Schöneiche FLP/ignoreGetMapURI
+qgis/connections-wms/Schöneiche FLP/invertAxisOrientation
+qgis/connections-wms/Schöneiche FLP/referer
+qgis/connections-wms/Schöneiche FLP/smoothPixmapTransform
+qgis/connections-wms/Schöneiche FLP/url
+qgis/connections-wms/bbp Biesenthal/dpiMode
+qgis/connections-wms/bbp Biesenthal/ignoreAxisOrientation
+qgis/connections-wms/bbp Biesenthal/ignoreGetFeatureInfoURI
+qgis/connections-wms/bbp Biesenthal/ignoreGetMapURI
+qgis/connections-wms/bbp Biesenthal/invertAxisOrientation
+qgis/connections-wms/bbp Biesenthal/referer
+qgis/connections-wms/bbp Biesenthal/smoothPixmapTransform
+qgis/connections-wms/bbp Biesenthal/url
+qgis/connections-wms/flp großräschen/dpiMode
+qgis/connections-wms/flp großräschen/ignoreAxisOrientation
+qgis/connections-wms/flp großräschen/ignoreGetFeatureInfoURI
+qgis/connections-wms/flp großräschen/ignoreGetMapURI
+qgis/connections-wms/flp großräschen/invertAxisOrientation
+qgis/connections-wms/flp großräschen/referer
+qgis/connections-wms/flp großräschen/smoothPixmapTransform
+qgis/connections-wms/flp großräschen/url
+qgis/connections-wms/selected
+qgis/connections-xyz/Google Satellite/authcfg
+qgis/connections-xyz/Google Satellite/password
+qgis/connections-xyz/Google Satellite/referer
+qgis/connections-xyz/Google Satellite/tilePixelRatio
+qgis/connections-xyz/Google Satellite/url
+qgis/connections-xyz/Google Satellite/username
+qgis/connections-xyz/Google Satellite/zmax
+qgis/connections-xyz/Google Satellite/zmin
+qgis/connections-xyz/selected
+qgis/copyFeatureFormat
+qgis/customEnvVars
+qgis/customEnvVarsUse
+qgis/dataSourceManagerNonModal
+qgis/defaultCapabilitiesExpiry
+qgis/defaultLegendGraphicResolution
+qgis/defaultProjectFileFormat
+qgis/defaultTileExpiry
+qgis/defaultTileMaxRetry
+qgis/default_canvas_color_blue
+qgis/default_canvas_color_green
+qgis/default_canvas_color_red
+qgis/default_measure_color_blue
+qgis/default_measure_color_green
+qgis/default_measure_color_red
+qgis/default_selection_color_alpha
+qgis/default_selection_color_blue
+qgis/default_selection_color_green
+qgis/default_selection_color_red
+qgis/digitizing/default_snapping_tolerance
+qgis/digitizing/default_z_value
+qgis/digitizing/disable_enter_attribute_values_dialog
+qgis/digitizing/fill_color_alpha
+qgis/digitizing/fill_color_blue
+qgis/digitizing/fill_color_green
+qgis/digitizing/fill_color_red
+qgis/digitizing/line_color_alpha
+qgis/digitizing/line_color_blue
+qgis/digitizing/line_color_green
+qgis/digitizing/line_color_red
+qgis/digitizing/line_ghost
+qgis/digitizing/line_width
+qgis/digitizing/marker_only_for_selected
+qgis/digitizing/marker_size_mm
+qgis/digitizing/marker_style
+qgis/digitizing/offset_join_style
+qgis/digitizing/offset_miter_limit
+qgis/digitizing/offset_quad_seg
+qgis/digitizing/reuseLastValues
+qgis/digitizing/search_radius_vertex_edit
+qgis/digitizing/search_radius_vertex_edit_unit
+qgis/digitizing/snap_color
+qgis/digitizing/snap_tooltip
+qgis/digitizing/validate_geometries
+qgis/dockAttributeTable
+qgis/enableMacros
+qgis/enable_anti_aliasing
+qgis/enable_render_caching
+qgis/hideSplash
+qgis/iconSize
+qgis/legendDoubleClickAction
+qgis/localized_data_paths
+qgis/magnifier_factor_default
+qgis/mainSnappingWidgetMode
+qgis/main_canvas_preview_jobs
+qgis/mapTipsDelay
+qgis/map_update_interval
+qgis/max_threads
+qgis/measure/angleunits
+qgis/measure/areaunits
+qgis/measure/decimalplaces
+qgis/measure/displayunits
+qgis/measure/keepbaseunit
+qgis/messageTimeout
+qgis/native_color_dialogs
+qgis/networkAndProxy/networkTimeout
+qgis/networkAndProxy/userAgent
+qgis/newProjectDefault
+qgis/new_layers_visible
+qgis/openSublayersInGroup
+qgis/parallel_rendering
+qgis/projOpenAtLaunch
+qgis/projOpenAtLaunchPath
+qgis/projOpenedOKAtLaunch
+qgis/projectTemplateDir
+qgis/promptForRasterSublayers
+qgis/scanItemsInBrowser2
+qgis/scanZipInBrowser2
+qgis/segmentationTolerance
+qgis/segmentationToleranceType
+qgis/showLegendClassifiers
+qgis/simplifyAlgorithm
+qgis/simplifyDrawingHints
+qgis/simplifyDrawingTol
+qgis/simplifyLocal
+qgis/simplifyMaxScale
+qgis/style
+qgis/symbolsListGroupsIndex
+qgis/warnOldProjectVersion
+qgis/zoom_factor
+qgsbrowserdockwidgetbase/expandedPaths
+qgsbrowserdockwidgetbase/propertiesWidgetEnabled
+qgsbrowserdockwidgetbase/propertiesWidgetHeight
+style/lastLoadStyleTypeSelection
+style/lastStyleCategories
+style/lastStyleDir
+svg/searchPathsForSVG

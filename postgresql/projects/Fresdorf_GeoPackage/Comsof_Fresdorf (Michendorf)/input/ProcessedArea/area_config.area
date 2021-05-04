@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AreaConfiguration>
+  <identifier>462979094</identifier>
+  <version>2019.4.2.107 - SA_DESIGNER</version>
+  <creationDate>2020-12-05 09:29:20.579 UTC</creationDate>
+  <areaName>Michendorf_Fresdorf</areaName>
+  <mappingFile>mapping.xml</mappingFile>
+  <areaPreviewImageName>preview.png</areaPreviewImageName>
+  <inputFiles class="map"/>
+  <calculationInputFiles class="map"/>
+  <maxInterPoleConnectionDistance>100.0</maxInterPoleConnectionDistance>
+  <maxAerialDistanceToStreetSide>10.0</maxAerialDistanceToStreetSide>
+  <usePolygonCutoutFile>false</usePolygonCutoutFile>
+  <polygonCutoutMargin>0.0</polygonCutoutMargin>
+  <backupShpFiles>false</backupShpFiles>
+  <useGeomarketingFile>false</useGeomarketingFile>
+  <defaultStreetWidth>0.0</defaultStreetWidth>
+  <numberOfBuildingsPerDropPoint>0</numberOfBuildingsPerDropPoint>
+  <buildingsNotConnected>0</buildingsNotConnected>
+  <totalStreetLength>3730.2523562774286</totalStreetLength>
+  <numberOfLivingUnits>144</numberOfLivingUnits>
+  <numberOfPONLivingUnits>144</numberOfPONLivingUnits>
+  <numberOfP2PLivingUnits>0</numberOfP2PLivingUnits>
+  <numberOfBuildings>96</numberOfBuildings>
+  <sizeOfCustomersArea>0.48</sizeOfCustomersArea>
+  <areaDensity>300.0</areaDensity>
+  <creationType>FROM_SHAPE_FILES</creationType>
+</AreaConfiguration>

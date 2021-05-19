@@ -3,6 +3,11 @@ GRANT SELECT ON ALL TABLES IN SCHEMA '|| schs || ' TO gr_gesamtnetz_dnsnet_viewe
 GRANT SELECT ON TABLE      TO gr_gesamtnetz_dnsnet_viewer;
 GRANT USAGE ON SCHEMA '||schs||' TO gr_gesamtnetz_dnsnet_viewer;
 
+
+GRANT USAGE ON SCHEMA aa_qgis_projekte To gr_gesamtnetz_dnsnet_viewer;
+Grant SELECT ON TABLE aa_qgis_projekte.qgis_projects TO gr_gesamtnetz_dnsnet_viewer;
+select access.dns_set_privileges_read('dns_net_geodb', 'b_brb_monitoring', 'projektgebiete', 'gr_gesamtnetz_dnsnet_viewer')
+
 -- Define the user group:
 CREATE ROLE gr_gesamtnetz_dnsnet_viewer WITH NOSUPERUSER NOCREATEDB NOLOGIN NOREPLICATION NOCREATEROLE;
 
@@ -80,6 +85,7 @@ GRANT SELECT ON TABLE st_monitoring_arge_boerde.weisse_flecken_202010 TO gr_gesa
 GRANT SELECT ON TABLE st_prj_0216_zba_altmark.zba_weisse_flecken TO gr_gesamtnetz_dnsnet_viewer;
 GRANT SELECT ON TABLE "dns_dienste"."b2b_selfservice" TO gr_gesamtnetz_dnsnet_viewer;
 GRANT SELECT ON TABLE st_monitoring_arge_boerde.trasse_los_2_lk_boerde TO gr_gesamtnetz_dnsnet_viewer;
+GRANT SELECT ON TABLE b_brb_monitoring.projektgebiete TO gr_gesamtnetz_dnsnet_viewer;
 
 -- DB:   bb_alkis  ---------------------------------------------------------------------------------------
 -- Schemas:

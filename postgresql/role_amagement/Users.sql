@@ -1,5 +1,13 @@
-GRANT USAGE ON SCHEMA aa_qgis_projekte To gr_gesamtnetz_dnsnet_viewer;
-Grant SELECT ON TABLE aa_qgis_projekte.qgis_projects TO gr_gesamtnetz_dnsnet_viewer;
+
+
+revoke delete, Truncate on table adressen.adressen from gr_dns_net_geodb_editor;
+revoke delete, Truncate on table adressen.dv_adressen_berlin from gr_dns_net_geodb_editor;
+revoke delete, Truncate on table adressen.dv_adressen_sachsen_anhalt from gr_dns_net_geodb_editor;
+revoke delete, Truncate on table adressen.dv_adressen_brandenburg from gr_dns_net_geodb_editor;
+revoke delete, Truncate on table adressen.adresse_abschluss from gr_dns_net_geodb_editor;
+
+
+-------------------------------------------------------------------------------------
 
 
 
@@ -115,3 +123,51 @@ grant gr_gesamtnetz_dnsnet_viewer to tihomir;
 Alter user daniel with password 'Daniel_R_DNS_net#132';
 grant dns_viewer to daniel;
 grant gr_gesamtnetz_dnsnet_viewer to daniel;
+
+
+
+CREATE ROLE thomas_lange  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'VWR_tL_wrR_54';
+grant dns_viewer to thomas_lange;
+grant gr_gesamtnetz_dnsnet_viewer to thomas_lange;
+
+
+
+CREATE ROLE stefan_schaefer  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'VWR_s_Agpz_9';
+grant dns_viewer to stefan_schaefer;
+grant gr_gesamtnetz_dnsnet_viewer to stefan_schaefer;
+
+alter user juergen with password 'DNS_juergen_1357'
+grant dns_viewer to juergen;
+grant gr_gesamtnetz_dnsnet_viewer to juergen;
+select access.dns_set_privileges_edit('dns_net_geodb', 'b_brb_monitoring', 'projektgebiete', 'juergen')
+
+
+CREATE ROLE cenk_oezuetok  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'VWR_CH_WbX_65';
+grant dns_viewer to cenk_oezuetok;
+grant gr_gesamtnetz_dnsnet_viewer to cenk_oezuetok;
+
+
+CREATE ROLE rainer  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'Rainer_Tt1357';
+grant dns_viewer to rainer;
+grant gr_gesamtnetz_dnsnet_viewer to rainer;	
+
+
+CREATE ROLE melanie_fritsch  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'Kgs4Y_845_u';
+	grant dns_viewer to melanie_fritsch;
+	grant gr_gesamtnetz_dnsnet_viewer to melanie_fritsch;
+
+
+
+		CREATE ROLE manuel_teichert  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'Fgs4Y_546_E';
+			grant dns_viewer to manuel_teichert;
+			grant gr_gesamtnetz_dnsnet_viewer to manuel_teichert;	
+
+
+		CREATE ROLE jennifer_grassmann  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'VWR_JG_Ysn_85';
+		grant dns_viewer to jennifer_grassmann;
+		grant gr_gesamtnetz_dnsnet_viewer to jennifer_grassmann;
+
+
+		CREATE ROLE marco_kobylka  WITH NOSUPERUSER NOCREATEDB LOGIN NOREPLICATION NOCREATEROLE PASSWORD  'VWR_MK_Ksn_32';
+		grant dns_viewer to marco_kobylka;
+		grant gr_gesamtnetz_dnsnet_viewer to marco_kobylka;

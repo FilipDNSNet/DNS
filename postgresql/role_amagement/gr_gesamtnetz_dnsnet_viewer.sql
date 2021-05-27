@@ -123,7 +123,7 @@ GRANT SELECT ON TABLE "umwelt"."nuthetal_baumkataster" TO gr_gesamtnetz_dnsnet_v
 GRANT USAGE ON SCHEMA db_ag To gr_gesamtnetz_dnsnet_viewer;
 -- Tables:
 GRANT SELECT ON TABLE db_ag.muffenexport_17022021 TO gr_gesamtnetz_dnsnet_viewer;
-
+GRANT SELECT ON TABLE db_ag.kilometer_db_ag TO gr_gesamtnetz_dnsnet_viewer;
 
 -- DB:	adressen  ---------------------------------------------------------------------------------------
 -- Schemas:
